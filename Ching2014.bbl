@@ -1,0 +1,34 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}\else
+  \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
+
+\bibitem[Kiureghian et~al.(2007)Kiureghian and Ditlevsen]{DerKiureghian2007}
+KIUREGHIAN~A~D, DITLEVSEN~O, 2007.
+\newblock Epistemic or aleatory? does it matter?\allowbreak[J].
+\newblock Proceedings of the Special Workshop on Risk Acceptance and Risk
+  Communication.
+
+\bibitem[Phoon et~al.(1999{\natexlab{a}})Phoon and Kulhawy]{Phoon1999612}
+PHOON~K~K, KULHAWY~F, 1999{\natexlab{a}}.
+\newblock Characterization of geotechnical variability\allowbreak[J/OL].
+\newblock Canadian Geotechnical Journal, 36\penalty0 (4):\penalty0 612-624.
+\newblock DOI: \doi{10.1139/t99-038}.
+
+\bibitem[Phoon et~al.(1999{\natexlab{b}})Phoon and Kulhawy]{Phoon1999625}
+PHOON~K~K, KULHAWY~F, 1999{\natexlab{b}}.
+\newblock Evaluation of geotechnical property variability\allowbreak[J/OL].
+\newblock Canadian Geotechnical Journal, 36\penalty0 (4):\penalty0 625-639.
+\newblock DOI: \doi{10.1139/t99-039}.
+
+\bibitem[Phoon et~al.(2008)Phoon and Kulhawy]{Phoon2008344}
+PHOON~K~K, KULHAWY~F, 2008.
+\newblock Serviceability limit state reliability-based design\allowbreak[M/OL].
+\newblock 344-384.
+\newblock DOI: \doi{10.1201/9781482265811-14}.
+
+\end{thebibliography}

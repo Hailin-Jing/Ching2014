@@ -1,0 +1,76 @@
+\documentclass[onecolumn,10pt,UTF8]{ctexart}
+
+\usepackage{parallel}% 提供双栏排版支持
+\usepackage{graphics}% 图形支持
+\usepackage{geometry}% 用于页面设置
+\usepackage{gbt7714}
+\usepackage[colorlinks,
+    linkcolor=red,
+    anchorcolor=blue,
+    citecolor=blue]{hyperref}
+%\usepackage[none]{hyphenat}%取消英文断词
+
+\geometry{
+  a4paper,%
+  left = 1.5cm,%
+  right = 1.5cm,%
+  top = 2.54cm,%
+  bottom = 2.54cm%
+}%
+
+\tolerance=1000
+\emergencystretch=\maxdimen
+\hyphenpenalty=5000
+\hbadness=10000
+
+\title{Transformations and correlations among some clay parameters - the global database\\一些黏土参数之间的转换和相关性 - 全球数据库}
+\date{\today}
+\author{Jianye Ching\thanks{
+    \textbf{J. Ching}. Department of Civil Engineering, National Taiwan University, Taiwan.
+} ~and Kok-Kwang Phoon\thanks{
+    \textbf{K.-K. Phoon}. Department of Civil and Environmental Engineering, National University of Singapore, Singapore.
+}\thanks{
+    \textbf{Corresponding author}: Jianye Ching (e-mail:jyching@gmail.com)
+}}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract 摘要}
+
+\begin{Parallel}{0.60\textwidth}{}
+    \ParallelLText
+    {
+        This study compiles a large database of 10 clay parameters (labeled as CLAY/10/7490) from 251 studies, covering clay data from 30 regions or countries worldwide. Hence, the range of data covered by this “global” database is broader than that underlying the calibration of existing transformation models in the literature. These transformation models relate test measurements (e.g., cone tip resistance) to appropriate design parameters (e.g., undrained shear strength). The correlation behaviours exhibited by the database among the 10 clay parameters are consistent with those exhibited by existing transformation models in the literature. The biases and transformation uncertainties of these transformation models with respect to the global database are calibrated. It is found that more recent transformation models are less biased and that the transformation uncertainties are typically fairly large. Such large transformation uncertainties are further reduced by incorporating secondary input parameters, such as plasticity index or sensitivity. In a companion paper written by the same authors, a 10-dimensional multivariate probability distribution coupling these clay parameters is constructed from CLAY/10/7490 and a useful application involving updating the entire bivariate probability distribution of two design parameters from three separate measurements is presented.
+
+        \textbf{Key words: }clay properties, correlations, transformation models, database, statistics.
+    }
+    \ParallelRText
+    {
+        该研究汇编了来自251个研究的10个粘土参数（标记为CLAY/10/7490）的大型数据库，涵盖了来自全球30个地区或国家的粘土数据。因此，该“全球”数据库所涵盖的数据范围比文献中现有转换模型的标定所依据的范围要广。这些转换模型将测试测量值（例如，锥头阻力）与适当的设计参数（例如，不排水的剪切强度）相关联。数据库显示的10个黏土参数之间的相关行为与文献中现有的转换模型所显示的相关行为一致。这些转换模型相对于全局数据库的偏差和转换不确定性已得到校准。结果发现，更新的转换模型偏差较小，并且转换不确定性通常相当大。通过合并次级输入参数（例如可塑性指数或灵敏度），可以进一步降低如此大的变换不确定性。在同一位作者撰写的伴随论文中，从CLAY/10/7490构建了耦合这些黏土参数的10维多元概率分布，并提出了一个有用的应用程序，其中涉及从三个独立的测量值更新两个设计参数的整个双变量概率分布。
+
+        \textbf{关键词：}黏土特性，相关性，转换模型，数据库，统计数据。
+    }
+
+\end{Parallel}
+
+\section{Introduntion 简介}
+
+\begin{Parallel}{0.60\textwidth}{}
+    \ParallelLText
+    {
+        Geotechnical variability is a complex attribute that needs careful evaluation. \citet{Phoon1999612} demonstrated using fairly extensive soil statistics that geotechnical variability depends on the site condition, measurement error associated with a field test, and quality of the correlation model adopted to relate the field test to a design property. The first component refers to inherent soil variability, which is customarily categorized as aleatoric in nature because it cannot be reduced by performing more tests. The second and third components, namely measurement error inevitably introduced in a test procedure and data scatter about a mean correlation trend (typically in the form of a linear regression equation), are customarily categorized epistemic in nature. They can be reduced by gathering more data or building better models. While there are merits to categorizing uncertainties as aleatoric or epistemic, one should be mindful that this demarcation is in part a modeler’s choice \citep{DerKiureghian2007}. From a practical perspective, it is perhaps more important to align tatistical characterization to the property evaluation procedure already embedded in our geotechnical engineering practice. In recognition of the need to respect sound geotechnical engineering practice, \citet{Phoon1999625} presented guidelines for coefficients of variation (COVs) of some soil properties as a function of the test method, correlation equation, and soil type. The key conclusion in this study is that it is not possible to assign a single coefficient of variation (COV) to a design property, such as the undrained shear strength. Geotechnical reliability-based design (RBD) equations that are calibrated using this single COV assumption are too simplistic, because diverse methodologies in estimating soil properties are ignored. This diversity is actually good practice, because there is a need to accommodate diverse site conditions. \citet{Phoon1999612,Phoon1999625} advocated that the calibration of geotechnical RBD equations should be carried out in explicit recognition of property variability and in full compliance with how soil properties are physically evaluated in practice. The framework recommended by \citet{Phoon1999612,Phoon1999625} and the ensuing three-tier classification scheme of soil property variability \citep{Phoon2008344} should be viewed as the minimum requirements in variability characterization. The third edition of ISO 2394 (General principles on reliability for structures; to be published in 2015) includes a new Annex D on “Reliability of geotechnical structures” where the importance of respecting sound geotechnical engineering practices in variability characterization and reliability calibration is strongly emphasized.
+    }
+    \ParallelRText
+    {
+        岩土变异性是一个复杂的属性，需要仔细评估。 \citet{Phoon1999612}使用相当广泛的土壤统计数据证明，岩土工程变异性取决于现场条件，与现场测试相关的测量误差以及将现场测试与设计属性相关联的相关模型的质量。第一部分是土壤固有的变异性，由于无法通过执行更多的测试来减少，因此习惯上被归类为无酸。第二和第三部分，即不可避免地在测试过程中引入的测量误差和关于平均相关趋势的数据散布（通常以线性回归方程的形式），本质上通常被归类为认识论。可以通过收集更多数据或建立更好的模型来减少它们。尽管将不确定性归类为偶然性或认知性是有好处的，但应该记住，这种划分在某种程度上是建模者的选择\citep{DerKiureghian2007}。从实践的角度来看，将地物特征与已经嵌入到我们的岩土工程实践中的属性评估程序对齐可能更为重要。考虑到需要尊重合理的岩土工程实践，\citet{Phoon1999625}提出了一些土壤特性的变异系数（COV）的准则，这些准则是测试方法，相关方程和土壤类型的函数。这项研究的关键结论是，不可能为设计特性（例如不排水的剪切强度）分配单个变异系数（COV）。使用这种单一COV假设进行校准的基于岩土工程的基于可靠性的设计（RBD）方程过于简单，因为忽略了估算土壤性质的多种方法。实际上，这种多样性是一种好习惯，因为有必要适应各种现场条件。 \citet{Phoon1999612,Phoon1999625}提倡，对岩土工程RBD方程的标定应在明确认识到物性变异性的前提下进行，并完全符合实际中对土壤物性的评估方法。 \citet{Phoon1999612,Phoon1999625}建议的框架和随后的三层土壤性质变异性分类方案\citep{Phoon2008344}应被视为变异性表征的最低要求。 ISO 2394第三版（关于结构可靠性的一般原则；将于2015年发布）包括有关“岩土结构可靠性”的新附件D，在该附录D中，强烈强调了在变异性表征和可靠性校准中尊重岩土工程实践的重要性。
+    }
+
+    \ParallelPar
+\end{Parallel}
+
+\bibliographystyle{gbt7714-author-year} % gbt7714-author-year gbt7714-numerical
+\bibliography{Ching2014.bib}
+    
+\end{document}
