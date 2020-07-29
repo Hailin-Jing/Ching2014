@@ -1,34 +1,85 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{#1}
-\expandafter\ifx\csname urlstyle\endcsname\relax\else
-  \urlstyle{same}\fi
-\expandafter\ifx\csname href\endcsname\relax
-  \DeclareUrlCommand\doi{\urlstyle{rm}}\else
-  \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Kiureghian et~al.(2007)Kiureghian and Ditlevsen]{DerKiureghian2007}
-KIUREGHIAN~A~D, DITLEVSEN~O, 2007.
-\newblock Epistemic or aleatory? does it matter?\allowbreak[J].
-\newblock Proceedings of the Special Workshop on Risk Acceptance and Risk
-  Communication.
+\bibitem[Ching and Phoon(2012{\natexlab{a}})]{Ching201252}
+J.~Ching and K.-K. Phoon.
+\newblock Establishment of generic transformations for geotechnical design
+  parameters.
+\newblock \emph{Structural Safety}, 35:\penalty0 52--62, 2012{\natexlab{a}}.
+\newblock \doi{10.1016/j.strusafe.2011.12.003}.
 
-\bibitem[Phoon et~al.(1999{\natexlab{a}})Phoon and Kulhawy]{Phoon1999612}
-PHOON~K~K, KULHAWY~F, 1999{\natexlab{a}}.
-\newblock Characterization of geotechnical variability\allowbreak[J/OL].
-\newblock Canadian Geotechnical Journal, 36\penalty0 (4):\penalty0 612-624.
-\newblock DOI: \doi{10.1139/t99-038}.
+\bibitem[Ching and Phoon(2012{\natexlab{b}})]{Ching2012522}
+J.~Ching and K.-K. Phoon.
+\newblock Modeling parameters of structured clays as a multivariate normal
+  distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 49\penalty0 (5):\penalty0
+  522--545, 2012{\natexlab{b}}.
+\newblock \doi{10.1139/T2012-015}.
 
-\bibitem[Phoon et~al.(1999{\natexlab{b}})Phoon and Kulhawy]{Phoon1999625}
-PHOON~K~K, KULHAWY~F, 1999{\natexlab{b}}.
-\newblock Evaluation of geotechnical property variability\allowbreak[J/OL].
-\newblock Canadian Geotechnical Journal, 36\penalty0 (4):\penalty0 625-639.
-\newblock DOI: \doi{10.1139/t99-039}.
+\bibitem[Ching and Phoon(2013)]{Ching2013907}
+J.~Ching and K.-K. Phoon.
+\newblock Multivariate distribution for undrained shear strengths under various
+  test procedures.
+\newblock \emph{Canadian Geotechnical Journal}, 50\penalty0 (9):\penalty0
+  907--923, 2013.
+\newblock \doi{10.1139/cgj-2013-0002}.
 
-\bibitem[Phoon et~al.(2008)Phoon and Kulhawy]{Phoon2008344}
-PHOON~K~K, KULHAWY~F, 2008.
-\newblock Serviceability limit state reliability-based design\allowbreak[M/OL].
-\newblock 344-384.
-\newblock DOI: \doi{10.1201/9781482265811-14}.
+\bibitem[Ching and Phoon(2014)]{Ching2014686}
+J.~Ching and K.-K. Phoon.
+\newblock Correlations among some clay parameters - the multivariate
+  distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (6):\penalty0
+  686--704, 2014.
+\newblock \doi{10.1139/cgj-2013-0353}.
+
+\bibitem[Ching et~al.(2014)Ching, Phoon, and Chen]{Ching201477}
+J.~Ching, K.-K. Phoon, and C.-H. Chen.
+\newblock Modeling piezocone cone penetration (cptu) parameters of clays as a
+  multivariate normal distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (1):\penalty0
+  77--91, 2014.
+\newblock \doi{10.1139/cgj-2012-0259}.
+
+\bibitem[Kiureghian and Ditlevsen(2007)]{DerKiureghian2007}
+Armen~Der Kiureghian and Ove Ditlevsen.
+\newblock Epistemic or aleatory? does it matter?
+\newblock \emph{Proceedings of the Special Workshop on Risk Acceptance and Risk
+  Communication}, 2007.
+
+\bibitem[Kulhawy and Mayne(1990)]{Kulhawy1990}
+F.H. Kulhawy and P.W. Mayne.
+\newblock Manual on estimating soil properties for foundation design.
+\newblock \emph{Manual on Estimating Soil Properties for Foundation Design},
+  1990.
+
+\bibitem[Mayne et~al.(2001)Mayne, Christopher, and Dejong]{Mayne2001}
+P.~W. Mayne, B.~R. Christopher, and J.~Dejong.
+\newblock Manual on subsurface investigations.
+\newblock \emph{National Highway Institute Publication No. FHWA NHI-01-031},
+  2001.
+
+\bibitem[Phoon and Kulhawy(1999{\natexlab{a}})]{Phoon1999612}
+K.-K. Phoon and F.H. Kulhawy.
+\newblock Characterization of geotechnical variability.
+\newblock \emph{Canadian Geotechnical Journal}, 36\penalty0 (4):\penalty0
+  612--624, 1999{\natexlab{a}}.
+\newblock \doi{10.1139/t99-038}.
+
+\bibitem[Phoon and Kulhawy(1999{\natexlab{b}})]{Phoon1999625}
+K.-K. Phoon and F.H. Kulhawy.
+\newblock Evaluation of geotechnical property variability.
+\newblock \emph{Canadian Geotechnical Journal}, 36\penalty0 (4):\penalty0
+  625--639, 1999{\natexlab{b}}.
+\newblock \doi{10.1139/t99-039}.
+
+\bibitem[Phoon and Kulhawy(2008)]{Phoon2008344}
+K.-K. Phoon and F.H. Kulhawy.
+\newblock \emph{Serviceability limit state reliability-based design}.
+\newblock 2008.
+\newblock \doi{10.1201/9781482265811-14}.
 
 \end{thebibliography}
