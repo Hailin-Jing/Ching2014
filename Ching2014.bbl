@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -97,6 +97,13 @@ F.H. Kulhawy and P.W. Mayne.
 \newblock Manual on estimating soil properties for foundation design.
 \newblock \emph{Manual on Estimating Soil Properties for Foundation Design},
   1990.
+
+\bibitem[Ladd et~al.(1977)Ladd, Foott, Ishihara, Schlosser, and
+  Poulos]{Ladd1977421}
+C.C. Ladd, R.~Foott, K.~Ishihara, F.~Schlosser, and H.G. Poulos.
+\newblock Stress-deformation and strength characteristics.
+\newblock \emph{Proceedings of the Ninth International Conference on Soil
+  Mechanics and Foundation Engineering}, 2:\penalty0 421--494, 1977.
 
 \bibitem[Locat and Demers(1988)]{Locat1988799}
 J.~Locat and D.~Demers.
