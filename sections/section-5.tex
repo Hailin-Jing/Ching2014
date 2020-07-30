@@ -131,10 +131,59 @@
     \end{align}
     \ParallelLText
     {
-
+        The term  $\alpha\times{}(\rm{PI}/20)^\beta$ is called the bias correction factor (BCF). In Table \ref{table:6}, the updated bias factors $b'$ are shown in the format of $b'=(\rm{original}~b)\times{}[BCF]$. The sample COV of epsilou (the updated variability term) is denoted by delta. In Table \ref{table:6}, $\delta'$ values are shown in the format of are shown in the format of $\delta'=(\rm{original}~\delta)\times{}(\rm{CCF}\%)$, where CCF denotes the COV correction factor.
     }
     \ParallelRText
     {
-
+        项$\alpha\times{}(\rm{PI}/20)^\beta$称为偏差校正因子（BCF）。在表\ref{table:6}中，更新的偏差因子$b'$以$b'=(\rm{original}~b)\times{}[BCF]$的格式显示。 $\varepsilon'$的样本COV（更新的可变性项）$\delta'$。 在表\ref{table:6}中，$\delta'$以$\delta'=(\rm{original}~\delta)\times{}(\rm{CCF}\%)$的格式显示，其中CCF表示COV校正因子。
+    }
+    \ParallelPar
+    \ParallelLText
+    {
+        It is apparent that when the target parameter is $\sigma_p'/P_a$ or OCR, the BCFs are always decreasing functions of PI ($\beta<0$). This implies that clays with larger PI values tend to have lower $\sigma_p'/P_a$ and OCR values. For the $\rm{CPTU}-(s_u/\sigma_v')$ model proposed by \citet{Ching201252}, the target parameter is the CPTU cone factors (namely $(q_t-\sigma_v)/s_u$, $(q_t-u_2)/s_u$ and $(u_2-u_0)/s_u$), the BCFs are increasing functions of PI ($\beta>0$). This implies that clays with larger PI tend to have larger cone factors, hence smaller $s_u$. This observation is known (\citealt{Aas19861,Marsland1988209,Powell1988903}) although it has not been established with statistical rigor using such a large database. The CCFs are fairly close to 100$\%$, indicating that the inference using PI does not significantly reduce the transformation uncertainties.
+    }
+    \ParallelRText
+    {
+        显然，当目标参数为$\sigma_p'/P_a$或OCR时，BCF始终是PI的递减函数（$\beta<0$）。这意味着具有较大PI值的黏土往往具有较低的$\sigma_p'/P_a$和OCR值。 对于\citet{Ching201252}提出的$\rm{CPTU}-(s_u/\sigma_v')$模型，目标参数是CPTU锥因子（即$(q_t-\sigma_v)/s_u$，$(q_t-u_2)/s_u$，以及$(u_2-u_0)/s_u$），BCF是PI的增函数（$\beta>0$）。 这意味着具有较大PI的黏土往往具有较大的圆锥系数，因此$s_u$较小。 这种结论是可信的（\citealt{Aas19861,Marsland1988209,Powell1988903}），尽管还没有使用如此庞大的数据库以统计上的严格性来建立它。 CCF相当接近100$\%$，这表明使用PI进行推理并不能显着减少变换的不确定性。
+    }
+    \ParallelPar
+    \ParallelLText
+    {
+        For the inference using PI and $S_t$, it is possible to express $\varepsilon$ as
+    }
+    \ParallelRText
+    {
+        对于使用PI和$S_t$进行推理，可以将$\varepsilon$表示为
+    }
+    \ParallelPar
+    \begin{align}
+        \varepsilon=\left[\alpha\times{}(\rm{PI}/20)^\beta\times{}S_t^\gamma\right]\times{}\varepsilon'
+        \label{equal:8}
+    \end{align}
+    \ParallelLText
+    {
+        The coefficients  $\alpha$,$\beta$ and $\gamma$ can be estimated using linear regression on the $\ln(\varepsilon)-\ln(\rm{PI})-\ln(S_t)$ data points. Namely, the following regression model is used:
+    }
+    \ParallelRText
+    {
+        可以使用$\ln(\varepsilon)-\ln(\rm{PI})-\ln(S_t)$数据点上的线性回归来估计系数$\alpha$，$\beta$和$\gamma$。 即使用以下回归模型：
+    }
+    \ParallelPar
+    \begin{align}
+        \ln(\varepsilon)\approx{}\ln(\alpha)+\beta\ln(\rm{PI}/20)+\gamma\ln(S_t)
+        \label{equal:9}
+    \end{align}
+    \ParallelLText
+    {
+        where $\ln(\varepsilon)$ is the known output, and $\ln(\rm{PI}/20)$ and $\ln(S_t)$ are the known inputs, whereas $\ln(\alpha)$, $\beta$ and $\gamma$ are the intersect and gradients to be estimated by the least-squares method. Once the least-squares estimates for $\ln(\alpha)$, $\beta$ and $\gamma$ are obtained, the term $\alpha\times{}(\rm{PI}/20)^\beta\times{}S_y^\gamma$ is now the BCF. Table \ref{table:6} shows the updated bias factors $b'$ in the format of $b'=(\rm{original}~b)\times{}[BCF]$ and the updated $\delta'$ in the format of $\delta'=(\rm{original}~\delta)\times{}(\rm{CCF}\%)$ for the inference using PI and $S_t$. It is apparent that when the target parameter is $s_u/\sigma_v'$ or $s_u/\sigma_p'$, these BCFs are always increasing functions of $S_t$ ($\gamma>0$), implying that clays with larger $S_t$ values tend to have larger $s_u/\sigma_v'$ and $s_u/\sigma_p'$ values. When the target parameter is CPTU cone factors, these BCFs are decreasing functions of $S_t$ ($\gamma<0$). This implies that clays with larger $S_t$ values tend to have smaller cone factors, hence larger $s_u$ values. The updated COV ($\delta'$) is typically noticeably less than the original $\delta$ value in Table \ref{table:5}. There are two possible explanations for such uncertainty reduction:
+    }
+    \ParallelRText
+    {
+        其中$\ln(\varepsilon)$是已知输出，而$\ln(\rm{PI}/20)$和$\ln(S_t)$是已知输入，而$\ln(\alpha)$，$\beta$和$\gamma$是通过最小二乘法估计的相交和渐变。一旦获得了$\ln(\alpha)$，$\beta$和$\gamma$的最小二乘估计，则$\alpha\times{}(\rm{PI}/20)^\beta\times{}S_y^\gamma$项即为BCF。表\ref{table:6}显示了使用PI和$S_t$进行推导的的$b'=(\rm{original}~b)\times{}[BCF]$格式的更新的偏差因子$b'$和$\delta'=(\rm{original}~\delta)\times{}(\rm{CCF}\%)$格式的更新的$\delta'$。很明显，当目标参数为$s_u/\sigma_v'$或$s_u/\sigma_p'$，BCF始终是$S_t$的增函数（$\gamma>0$），这意味着具有较大$S_t$值的黏土往往具有较大的$s_u/\sigma_v'$和$s_u/\sigma_p'$。当目标参数是CPTU锥因子时，BCF是$S_t$的递减函数（$\gamma<0$）。这意味着具有较大$S_t$值的黏土往往具有较小的圆锥系数，因此具有较大的$S_u$值。通常，更新后的COV（$\delta'$）明显小于表\ref{table:5}中的原始$\delta$值。对于这种降低不确定性有两种可能的解释：
     }
 \end{Parallel}
+
+$\ln(\alpha)$, $\beta$ and $\gamma$ are obtained, 
+
+$\ln(\alpha)$, $\beta$ and $\gamma$ are obtained,
+

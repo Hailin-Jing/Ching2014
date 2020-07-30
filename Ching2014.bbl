@@ -1,9 +1,14 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aas et~al.(1986)Aas, Lacasse, Lunne, and Hoeg]{Aas19861}
+Gunnar Aas, Suzanne Lacasse, Tom Lunne, and Kaare Hoeg.
+\newblock Use of in situ tests for foundation design on clay.
+\newblock pages 1--30, 1986.
 
 \bibitem[Bjerrum(1954)]{Bjerrum195449}
 L.~Bjerrum.
@@ -113,6 +118,13 @@ J.~Locat and D.~Demers.
   799--806, 1988.
 \newblock \doi{10.1139/t88-088}.
 
+\bibitem[Marsland and Powell(1988)]{Marsland1988209}
+S.~Marsland and J.~J.~M. Powell.
+\newblock Investigation of cone penetration test in british clay carried out by
+  the building research establishment 1962-1987.
+\newblock \emph{Proceedings the Geotechnology Conference: Penetration Testing,
+  Birmingham, UK}, pages 209--214, 1988.
+
 \bibitem[Mayne et~al.(2001)Mayne, Christopher, and Dejong]{Mayne2001}
 P.~W. Mayne, B.~R. Christopher, and J.~Dejong.
 \newblock Manual on subsurface investigations.
@@ -167,6 +179,13 @@ K.-K. Phoon and F.H. Kulhawy.
 \newblock \emph{Serviceability limit state reliability-based design}.
 \newblock 2008.
 \newblock \doi{10.1201/9781482265811-14}.
+
+\bibitem[Powell and Quarterman(1988)]{Powell1988903}
+J.J.M. Powell and R.S.T. Quarterman.
+\newblock The interpretation of cone penetration tests in clays, with
+  particular reference to rate effects.
+\newblock \emph{Proceedings, 1st International Symposium on Penetration
+  Testing}, 2:\penalty0 903--910, 1988.
 
 \bibitem[Robertson(1990)]{Robertson1990151}
 P.K. Robertson.
