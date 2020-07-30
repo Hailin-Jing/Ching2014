@@ -3,46 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Ching2014.aux
 The style file: plainnat.bst
 Database file #1: Ching2014.bib
+Warning--empty publisher in Jamiolkowski198557
+Warning--empty booktitle in Mesri20071
+Warning--there's a number but no series in Mesri20071
 Warning--empty publisher in Phoon2008344
-You've used 11 entries,
+Warning--empty journal in Terzaghi1996
+You've used 27 entries,
             2773 wiz_defined-function locations,
-            670 strings with 6631 characters,
-and the built_in function-call counts, 4781 in all, are:
-= -- 434
-> -- 249
-< -- 9
-+ -- 85
-- -- 72
-* -- 387
-:= -- 747
-add.period$ -- 41
-call.type$ -- 11
-change.case$ -- 56
-chr.to.int$ -- 9
-cite$ -- 23
-duplicate$ -- 219
-empty$ -- 400
-format.name$ -- 101
-if$ -- 1006
+            787 strings with 9293 characters,
+and the built_in function-call counts, 11344 in all, are:
+= -- 1025
+> -- 535
+< -- 26
++ -- 185
+- -- 156
+* -- 874
+:= -- 1755
+add.period$ -- 97
+call.type$ -- 27
+change.case$ -- 129
+chr.to.int$ -- 25
+cite$ -- 59
+duplicate$ -- 553
+empty$ -- 999
+format.name$ -- 215
+if$ -- 2412
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 12
-newline$ -- 71
-num.names$ -- 44
-pop$ -- 96
+missing$ -- 31
+newline$ -- 159
+num.names$ -- 108
+pop$ -- 243
 preamble$ -- 1
-purify$ -- 46
+purify$ -- 106
 quote$ -- 0
-skip$ -- 168
+skip$ -- 413
 stack$ -- 0
-substring$ -- 157
-swap$ -- 15
-text.length$ -- 0
+substring$ -- 399
+swap$ -- 44
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
-warning$ -- 1
-while$ -- 40
+type$ -- 277
+warning$ -- 5
+while$ -- 100
 width$ -- 0
-write$ -- 161
-(There was 1 warning)
+write$ -- 379
+(There were 5 warnings)

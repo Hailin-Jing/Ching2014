@@ -1,9 +1,44 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bjerrum(1954)]{Bjerrum195449}
+L.~Bjerrum.
+\newblock Geotechnical properties of norwegian marine clays.
+\newblock \emph{Geotechnique}, 4\penalty0 (2):\penalty0 49--69, 1954.
+\newblock \doi{10.1680/geot.1954.4.2.49}.
+
+\bibitem[Bjerrum(1972)]{Bjerrum19721}
+L.~Bjerrum.
+\newblock Embankments on soft ground.
+\newblock \emph{Proceedings of the American Society of Civil Engineers
+  Specialty Conference on Performance of Earth and Earth-Supported Structures},
+  2:\penalty0 1--54, 1972.
+
+\bibitem[Bjerrum and Simons(1960)]{Bjerrum1960711}
+L.~Bjerrum and N.E. Simons.
+\newblock Comparison of shear strength characteristics of normally consolidated
+  clays.
+\newblock \emph{Proceedings of the ASCE Research Conference on the Shear
+  Strength of Cohesive Soils}, pages 711--726, 1960.
+
+\bibitem[Chen and Mayne(1996)]{Chen1996488}
+B.S.Y. Chen and P.W. Mayne.
+\newblock Statistical relationships between piezocone measurements and stress
+  history of clays.
+\newblock \emph{Canadian Geotechnical Journal}, 33\penalty0 (3):\penalty0
+  488--498, 1996.
+\newblock \doi{10.1139/t96-070}.
+
+\bibitem[Chen and Kulhawy(1993)]{Chen19931732}
+Y.-J. Chen and F.H. Kulhawy.
+\newblock Undrained strength interrelationships among ciuc, uu, and uc tests.
+\newblock \emph{Journal of Geotechnical Engineering}, 119\penalty0
+  (11):\penalty0 1732--1750, 1993.
+\newblock \doi{10.1061/(ASCE)0733-9410(1993)119:11(1732)}.
 
 \bibitem[Ching and Phoon(2012{\natexlab{a}})]{Ching201252}
 J.~Ching and K.-K. Phoon.
@@ -44,6 +79,13 @@ J.~Ching, K.-K. Phoon, and C.-H. Chen.
   77--91, 2014.
 \newblock \doi{10.1139/cgj-2012-0259}.
 
+\bibitem[Jamiolkowski et~al.(1985)Jamiolkowski, Ladd, Germaine, and
+  Lancellotta]{Jamiolkowski198557}
+M.~Jamiolkowski, C.C. Ladd, J.T. Germaine, and R.~Lancellotta.
+\newblock \emph{New developments in field and laboratory testing of soils.}
+\newblock 1985.
+\newblock cited By 433.
+
 \bibitem[Kiureghian and Ditlevsen(2007)]{DerKiureghian2007}
 Armen~Der Kiureghian and Ove Ditlevsen.
 \newblock Epistemic or aleatory? does it matter?
@@ -56,11 +98,48 @@ F.H. Kulhawy and P.W. Mayne.
 \newblock \emph{Manual on Estimating Soil Properties for Foundation Design},
   1990.
 
+\bibitem[Locat and Demers(1988)]{Locat1988799}
+J.~Locat and D.~Demers.
+\newblock Viscosity, yield stress, remolded strength, and liquidity index
+  relationships for sensitive clays.
+\newblock \emph{Canadian Geotechnical Journal}, 25\penalty0 (4):\penalty0
+  799--806, 1988.
+\newblock \doi{10.1139/t88-088}.
+
 \bibitem[Mayne et~al.(2001)Mayne, Christopher, and Dejong]{Mayne2001}
 P.~W. Mayne, B.~R. Christopher, and J.~Dejong.
 \newblock Manual on subsurface investigations.
 \newblock \emph{National Highway Institute Publication No. FHWA NHI-01-031},
   2001.
+
+\bibitem[Mesri(1975)]{Mesri1975409}
+G~Mesri.
+\newblock Discussion (new design procedure for stability of soft clays).
+\newblock \emph{Journal of Geotechnical Engineering ASCE}, 101\penalty0
+  (4):\penalty0 409--412, 01 1975.
+
+\bibitem[Mesri(1989)]{Mesri1989162}
+G.~Mesri.
+\newblock A reevaluation of su(mob) = 0.22σp'using laboratory shear tests.
+\newblock \emph{Canadian Geotechnical Journal}, 26\penalty0 (1):\penalty0
+  162--164, 1989.
+
+\bibitem[Mesri and Huvaj(2007)]{Mesri20071}
+G.~Mesri and N.~Huvaj.
+\newblock Shear strength mobilized in undrained failure of soft clay and silt
+  deposits.
+\newblock Number 173, page~1, 2007.
+\newblock \doi{10.1061/40917(236)1}.
+
+\bibitem[Mitchel(1993)]{Mitchell1993}
+J.~K. Mitchel.
+\newblock \emph{Fundamentals of soil behaviour}.
+\newblock 2nd ed. John Wiley and Sons, 1993.
+
+\bibitem[NAVFAC(1982)]{NAVFAC1982}
+NAVFAC.
+\newblock \emph{Soil mechanics : Design manual 7-1}.
+\newblock Naval Facilities Engineering Command, Alexandria, 1982.
 
 \bibitem[Phoon and Kulhawy(1999{\natexlab{a}})]{Phoon1999612}
 K.-K. Phoon and F.H. Kulhawy.
@@ -81,5 +160,31 @@ K.-K. Phoon and F.H. Kulhawy.
 \newblock \emph{Serviceability limit state reliability-based design}.
 \newblock 2008.
 \newblock \doi{10.1201/9781482265811-14}.
+
+\bibitem[Robertson(1990)]{Robertson1990151}
+P.K. Robertson.
+\newblock Soil classification using the cone penetration test.
+\newblock \emph{Canadian Geotechnical Journal}, 27\penalty0 (1):\penalty0
+  151--158, 1990.
+\newblock \doi{10.1139/t90-014}.
+
+\bibitem[Stas and Kulhawy(1984)]{Stas1984}
+C.~Stas and F.~Kulhawy.
+\newblock Critical evaluation of design methods for foundations under axial
+  uplift and compression loading. final report.
+\newblock \emph{Electric Power Re-search Institute, Palo Alto, Calif}, 1984.
+
+\bibitem[Terzaghi et~al.(1996)Terzaghi, Peck, and Mesri]{Terzaghi1996}
+K.~Terzaghi, R.~Peck, and G.~Mesri.
+\newblock Soil mechanics in engineering practice.
+\newblock 1996.
+
+\bibitem[Wroth and Wood(1978)]{Wroth1978137}
+C.P. Wroth and D.M. Wood.
+\newblock Correlation of index properties with some basic engineering
+  properties of soils.
+\newblock \emph{Canadian Geotechnical Journal}, 15\penalty0 (2):\penalty0
+  137--145, 1978.
+\newblock \doi{10.1139/t78-014}.
 
 \end{thebibliography}

@@ -1,0 +1,42 @@
+\begin{table}[!htb]
+    \centering
+    \scriptsize
+    \caption{Transformation models for $s_u(\rm{mob})$.}
+    \addtocounter{table}{-1}
+    \vspace{-8pt}
+    \renewcommand{\tablename}{表}
+    \caption{$s_u(\rm{mob})$的转换模型}
+    \vspace{4pt}
+    \renewcommand{\tablename}{Table}
+    \begin{tabularx}{\textwidth}{lll}
+        \toprule
+        Available $s_u$ information & Transformation model & Reference\\
+        \midrule
+        FV & $s_u(\rm{mob})\approx{}s_u(\rm{field})\approx{}[s_u(\rm{FV})]\mu$ & \citet{Bjerrum19721} \\
+        UC & $s_u(\rm{mob})\approx{}s_u(\rm{UC})$ & \citet{Mesri20071} \\
+        UU & $s_u(\rm{mob})/\sigma_v'\approx{}s_u(\rm{UC})/\sigma_v'\approx{}-0.073+1.018s_u(\rm{UU})/\sigma_v'$ & \citet{Chen19931732}；\citet{Mesri20071} \\
+        CIUC & $s_u(\rm{mob})/\sigma_v'\approx{}s_u(\rm{UC})/\sigma_v'\approx{}-0.278+1.172s_u(\rm{CIUC})/\sigma_v'$ & \citet{Chen19931732}；\citet{Mesri20071} \\
+        C$K_0$UC, DSS, C$K_0$UE & $s_u(\rm{mob})\approx{}\{[s_u(\rm{C}K_0\rm{UC})+s_u(\rm{DSS})+s_u(\rm{C}K_0\rm{UE})]/3\}\mu_t$ & \citet{Mesri20071}；\citet{Kulhawy1990}\\
+        C$K_0$UC, C$K_0$UE & $s_u(\rm{mob})\approx{}\{[s_u(\rm{C}K_0\rm{UC})+s_u(\rm{C}K_0\rm{UE})]/2\}\mu_t^*$ & \citet{Mesri20071}；\citet{Kulhawy1990}\\
+        DSS & $s_u(\rm{mob})\approx{}[s_u(\rm{DSS})]u_t^*$ & \citet{Mesri20071}；\citet{Kulhawy1990}\\
+        C$K_0$UC & $s_u(\rm{mob})\approx{}[s_u(\rm{DSS})]u_t\approx{}[s_u(\rm{C}K_0\rm{UC})][0.67\mu_t]$ & \citet{Mesri20071}；\citet{Kulhawy1990}\\
+        C$K_0$UE & $s_u(\rm{mob})\approx{}[s_u(\rm{DSS})]u_t\approx{}[s_u(\rm{C}K_0\rm{UE})][1.53^\dag(\mu_t)]$ & \citet{Mesri20071}；\citet{Kulhawy1990}\\
+        \bottomrule
+    \end{tabularx}%
+    {\raggedright\vspace{4pt}
+
+    ~~~~\textbf{Note:} FV, field vane; UC, unconfined compression; UU, unconsolidated undrained compression; CIUC, isotropically consolidated undrained compression; C$K_0$UC, $K_0$-consolidated undrained compression; DSS, direct simple shear; C$K_0$UEE, $K_0$-consolidated undrained extension; $\mu$ , PI-dependent correction factor for $s_u(\rm{FV})$ proposed in \citet{Bjerrum19721}; $\mu_t$, PI-dependent strain rate correction factor proposed in \citet{Terzaghi1996}. 
+
+    ~~~~*These equations are based on the following two facts: $(i) s_u(\rm{mob}\approx{}\{[s_u(\rm{C}K_0\rm{UC})+s_u(\rm{DSS})+s_u(\rm{C}K_0\rm{UC})]/3\}\mu_t$ and $(ii)s_u(\rm{DSS})$ is roughly the average of $s_u(\rm{C}K_0\rm{UC})$ and $s_u(\rm{C}K_0\rm{UE})$ \citep{Kulhawy1990}. 
+
+    ~~~~$\dag$This constant of 1.53 is based on the following two facts: $(i)su(\rm{DSS})\approx{}0.67s_u(\rm{C}K_0\rm{UC})$\citep{Kulhawy1990} and $(ii) s_u(\rm{DSS})$ is roughly the average of $s_u(\rm{C}K_0\rm{UC})$ and $s_u(\rm{C}K_0\rm{UE})$.
+
+    ~~~~\textbf{注意：} FV，现场试验； UC，无限制压缩； UU，不固结不排水压缩； CIUC，各向同性固结不排水压缩； C$K_0$UC，$K_0$固结不排水压缩； DSS，直接剪切； C$K_0$UE，$K_0$固结不排水拉伸；$\mu$，\citet{Bjerrum19721}提出的$s_u(\rm{FV})$的PI依赖校正因子；$\mu_t$，\citet{Terzaghi1996}提出的依赖PI的应变率校正因子。
+
+    ~~~~*这些方程式基于以下两个事实：$(i) s_u(\rm{mob}\approx{}\{[s_u(\rm{C}K_0\rm{UC})+s_u(\rm{DSS})+s_u(\rm{C}K_0\rm{UC})]/3\}\mu_t$，$(ii)s_u(\rm{DSS})$大致为$s_u(\rm{C}K_0\rm{UC})$和$s_u(\rm{C}K_0\rm{UE})$的平均值\citep{Kulhawy1990}。
+
+    ~~~~$\dag$1.53的常数基于以下两个事实：$(i)su(\rm{DSS})\approx{}0.67s_u(\rm{C}K_0\rm{UC})$\citep{Kulhawy1990}，$(ii) s_u(\rm{DSS})$大约是$s_u(\rm{C}K_0\rm{UC})$和$s_u(\rm{C}K_0\rm{UE})$的平均值。
+
+    }
+    \label{table:2}%
+\end{table}
