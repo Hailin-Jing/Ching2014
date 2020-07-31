@@ -1,6 +1,6 @@
 \begin{table}[!htb]
     \centering
-    \scriptsize
+    \footnotesize
     \caption{Databases compiled by the authors.}
     \addtocounter{table}{-1}
     \vspace{-8pt}
@@ -8,6 +8,7 @@
     \caption{作者编译的数据库。}
     \vspace{4pt}
     \renewcommand{\tablename}{Table}
+    \setlength{\tabcolsep}{1mm}{
     \begin{tabularx}{\textwidth}{XlllllXX}
         \toprule
         \multirow{2}{*}{Database}  & \multirow{2}{*}{Reference}  &  \multirow{2}{*}{Parameters of interest}  &  \multirow{2}{*}{\shortstack{No. of \\data \\points}}    &  \multirow{2}{*}{\shortstack{No. of \\sites or \\studies}}    & \multicolumn{3}{l}{Range of Properties} \\
@@ -21,6 +22,6 @@
         \specialrule{0em}{2pt}{2pt}
         CLAY/10/7490    & This paper            & \tabincell{l}{$\rm{LL},\rm{PI},\rm{LI},\sigma_v'/P_a,\sigma_p'/P_a,$\\$s_u/\sigma_v',S_t,(q_t-\sigma_v)/\sigma_v',$\\$(q_t-u_2)/\sigma_v',B_q$}      & 7490  		    &   251 studies  		 & 1$\sim$10  & \tabincell{l}{Low to very \\high plasticity}  & \tabincell{l}{Insensitive to \\quick clays} \\
         \bottomrule
-    \end{tabularx}%
+    \end{tabularx}}%
     \label{table:1}%
 \end{table}

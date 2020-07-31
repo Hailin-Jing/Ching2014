@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  1 AUG 2020 03:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  1 AUG 2020 03:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -739,67 +739,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 21.
  [2] [3] (./tables/table-1.tex
-Overfull \vbox (2.86598pt too high) detected at line 24
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 
-Overfull \vbox (2.86598pt too high) detected at line 24
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 
-Overfull \vbox (2.86598pt too high) detected at line 24
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 
-Overfull \vbox (2.86598pt too high) detected at line 24
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 
-Overfull \vbox (2.86598pt too high) detected at line 24
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 
-Overfull \vbox (2.86598pt too high) detected at line 24
- []
-
-
-Overfull \hbox (3.96497pt too wide) in paragraph at lines 24--24
-[]|[]| 
- []
-
-
-Overfull \hbox (0.66095pt too wide) in paragraph at lines 24--24
-[]|[]| 
- []
-
-
-Overfull \hbox (3.74796pt too wide) in paragraph at lines 24--24
-[]|\TU/lmr/m/n/7 CLAY/7/6310| 
- []
-
-
-Overfull \hbox (3.96497pt too wide) in paragraph at lines 24--24
-[]|[]| 
- []
-
-
-Overfull \hbox (0.66095pt too wide) in paragraph at lines 24--24
-[]|[]| 
- []
-
-
-Overfull \hbox (7.73094pt too wide) in paragraph at lines 24--24
-[]|\TU/lmr/m/n/7 CLAY/10/7490| 
- []
-
-
-Overfull \hbox (3.96497pt too wide) in paragraph at lines 24--24
-[]|[]| 
- []
-
-
-Overfull \hbox (0.66095pt too wide) in paragraph at lines 24--24
-[]|[]| 
+Overfull \vbox (1.613pt too high) detected at line 25
  []
 
 ) [4]) (./sections/section-2.tex (./figures/figure-1.tex
@@ -811,16 +771,11 @@ Overfull \hbox (6.44283pt too wide) in paragraph at lines 20--21
  []
 
 [5] [6] (./tables/table-2.tex
-Overfull \hbox (1.99902pt too wide) in alignment at lines 25--25
+Overfull \hbox (1.67989pt too wide) in alignment at lines 26--26
 [][][] 
  []
 
-) (./tables/table-3-4.tex
-Overfull \hbox (14.35915pt too wide) in paragraph at lines 44--65
- [][][] 
- []
-
-)) (./sections/section-3.tex [7] (./tables/table-5.tex
+) [7] (./tables/table-3-4.tex)) (./sections/section-3.tex (./tables/table-5.tex
 Overfull \hbox (19.64743pt too wide) in paragraph at lines 68--109
  [][][] 
  []
@@ -866,18 +821,13 @@ Overfull \hbox (2.80083pt too wide) in paragraph at lines 90--91
 File: figures/figure-15.png Graphic file (type bmp)
 <figures/figure-15.png>
 )
-Overfull \hbox (7.5367pt too wide) in paragraph at lines 34--35
-\TU/lmr/m/n/10 Mayne[][] ([][]1996[][]) \TU/SimSun(0)/m/n/10 以 及[][]\TU/lmr/m/n/10 Ching and Phoon[][] ([][]2012a[][],[][]b[][])\TU/SimSun(0)/m/n/10 ，|
- []
-
-
 Overfull \hbox (40.31161pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 4 BIASES AND UNCERTAINTIES OF THE EXISTING TRANSFORMATION MODELS \TU/SimSun(0)/m/it/10 现 有 转 换 模 型 的 偏 差 和 不 确 定 性 \TU/lmr/m/n/10 15
  []
 
 [15]
-Overfull \hbox (2.92563pt too wide) in paragraph at lines 70--71
-[]\TU/lmr/m/n/10 2. \TU/SimSun(0)/m/n/10 将 $\OML/cmm/m/it/10 s[]$ \TU/SimSun(0)/m/n/10 数 据 点 转 换 为 参 考 强 度 $\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ([])$\TU/SimSun(0)/m/n/10 ，|
+Overfull \hbox (7.5367pt too wide) in paragraph at lines 34--35
+\TU/lmr/m/n/10 Mayne[][] ([][]1996[][]) \TU/SimSun(0)/m/n/10 以 及[][]\TU/lmr/m/n/10 Ching and Phoon[][] ([][]2012a[][],[][]b[][])\TU/SimSun(0)/m/n/10 ，|
  []
 
 
@@ -885,7 +835,12 @@ Overfull \hbox (40.31161pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 4 BIASES AND UNCERTAINTIES OF THE EXISTING TRANSFORMATION MODELS \TU/SimSun(0)/m/it/10 现 有 转 换 模 型 的 偏 差 和 不 确 定 性 \TU/lmr/m/n/10 16
  []
 
-[16]) (./sections/section-5.tex [17]
+[16]
+Overfull \hbox (2.92563pt too wide) in paragraph at lines 70--71
+[]\TU/lmr/m/n/10 2. \TU/SimSun(0)/m/n/10 将 $\OML/cmm/m/it/10 s[]$ \TU/SimSun(0)/m/n/10 数 据 点 转 换 为 参 考 强 度 $\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ([])$\TU/SimSun(0)/m/n/10 ，|
+ []
+
+) (./sections/section-5.tex [17]
 Overfull \vbox (18.41998pt too high) detected at line 26
  []
 
@@ -933,10 +888,10 @@ Overfull \hbox (19.6964pt too wide) in paragraph at lines 58--92
  [][][] 
  []
 
-) (./figures/figure-17.tex
+) [19] [20] (./figures/figure-17.tex
 File: figures/figure-17.png Graphic file (type bmp)
 <figures/figure-17.png>
-) [19] [20] [21]) (./sections/section-6.tex [22]) (./sections/section-7.tex) [23] (./tables/table-a1.tex [24] [25] [26] [27] [28]) (./Ching2014.bbl
+) [21]) (./sections/section-6.tex [22]) (./sections/section-7.tex) [23] (./tables/table-a1.tex [24] [25] [26] [27] [28]) (./Ching2014.bbl
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -974,11 +929,11 @@ Package rerunfilecheck Info: File `Ching2014.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 20019 strings out of 479418
- 415660 string characters out of 5888105
- 746696 words of memory out of 5000000
- 37121 multiletter control sequences out of 15000+600000
- 547447 words of font info for 118 fonts, out of 8000000 for 9000
+ 20016 strings out of 479418
+ 415581 string characters out of 5888105
+ 748355 words of memory out of 5000000
+ 37120 multiletter control sequences out of 15000+600000
+ 547439 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,21n,68p,2889b,934s stack positions out of 5000i,500n,10000p,200000b,80000s
 

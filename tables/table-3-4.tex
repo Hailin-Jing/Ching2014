@@ -2,7 +2,7 @@
     \centering
     \begin{minipage}[t]{0.44\textwidth}
         \centering
-        \scriptsize
+        \footnotesize
         \caption{Statistics of the data points in the database.}
         \addtocounter{table}{-1}
         \vspace{-8pt}
@@ -10,6 +10,7 @@
         \caption{数据库中数据点的统计信息。}
         \vspace{4pt}
         \renewcommand{\tablename}{Table}
+        \setlength{\tabcolsep}{1.5mm}{
         \begin{tabular}{llllll}
             \toprule
             Variable                    & $n$   & Mean  & COV   & Min     & Max\\
@@ -28,12 +29,12 @@
             OCR                         & 3531  & 3.85  & 1.56  & 1.0     & 60.23 \\
             $s_u^{re}/P_a$              & 1143  & 0.075 & 2.86  & 9.67E-5 & 2.47 \\
             \bottomrule
-        \end{tabular}%
+        \end{tabular}}%
         \label{table:3}%
     \end{minipage}
     \begin{minipage}[t]{0.55\textwidth}
         \centering
-        \scriptsize
+        \footnotesize
         \caption{Statistics of the data points in the database.}
         \addtocounter{table}{-1}
         \vspace{-8pt}
@@ -41,6 +42,7 @@
         \caption{数据库中数据点的统计信息。}
         \vspace{4pt}
         \renewcommand{\tablename}{Table}
+        \setlength{\tabcolsep}{1.5mm}{
         \begin{tabular}{llll>{\columncolor{gray}}llll}
             \toprule
             Variable & $2.5\%$ & $5\%$ & $25\%$ & $50\%$ & $75\%$ & $95\%$ & $97.5\%$\\
@@ -60,7 +62,7 @@
             $s_u^{re}/P_a$              &  5.14E-4 & 8.05E-4   & 6.48E–3   & 0.021 & 0.062 & 0.26 &  0.54 \\
             
             \bottomrule
-        \end{tabular}%
+        \end{tabular}}%
         \label{table:4}%
     \end{minipage}
 \end{table}
