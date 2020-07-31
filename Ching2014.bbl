@@ -1,4 +1,4 @@
-\begin{thebibliography}{251}
+\begin{thebibliography}{270}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1585,10 +1585,86 @@ K.~Tani and W.H. Craig.
   undrained shear strength profile of a model clay bed.
 \newblock \emph{Soils and Foundations}, 35\penalty0 (2):\penalty0 37--47, 1995.
 
+\bibitem[Tavenas and Leroueil(1978)]{Tavenas1977319}
+F.~Tavenas and S.~Leroueil.
+\newblock The effect of stresses and time on yielding of clays.
+\newblock 1:\penalty0 319--326, 1978.
+
+\bibitem[Tavenas et~al.(1978)Tavenas, Blanchet, Garneau, and
+  Leroueil]{Tavenas1978283}
+F.~Tavenas, R.~Blanchet, R.~Garneau, and S.~Leroueil.
+\newblock Stability of stage-constructed embankments on soft clays.
+\newblock \emph{Canadian Geotechnical Journal}, 15\penalty0 (2):\penalty0
+  283--305, 1978.
+\newblock \doi{10.1139/t78-025}.
+
+\bibitem[Tavenas et~al.(1975)Tavenas, Blanchete, Leroueil, Roy, and
+  LaRochelle]{Tavenas1975450}
+F.A. Tavenas, G.~Blanchete, S.~Leroueil, M.~Roy, and P.~LaRochelle.
+\newblock Difficulties in the in-situ determination of k0 in soft sensitive
+  clays.
+\newblock \emph{Proc. in Situ Maesurement of Soil Properties}, 1:\penalty0
+  450--476, 1975.
+
 \bibitem[Terzaghi et~al.(1996)Terzaghi, Peck, and Mesri]{Terzaghi1996}
 K.~Terzaghi, R.~Peck, and G.~Mesri.
 \newblock Soil mechanics in engineering practice.
 \newblock 1996.
+
+\bibitem[Tschuschke(2010)]{Tschuschke20103}
+W.~Tschuschke.
+\newblock Assessment of strength parameters of copper ore postflotation deposit
+  based on cptu.
+\newblock \emph{Proceedings of the 2nd International Symposium on Cone
+  Penetration Testing, ISSMGE}, pages 3--36, 2010.
+
+\bibitem[Tschuschke and Waliń~Ski(2005)]{Tschuschke2005121}
+W.~Tschuschke and M.~Waliń~Ski.
+\newblock \emph{CPTU in soft post-flotation sediments. Studia Geotechnical et
+  Mechanica}, 207\penalty0 (3-4):\penalty0 121--132, 2005.
+
+\bibitem[Tsuchida et~al.(1999)Tsuchida, Hong, Wataba, and
+  Ogawa]{Tsuchida1999543}
+T.~Tsuchida, Z.~Hong, Y.~Wataba, and F.~Ogawa.
+\newblock Relationship of undrained shear strength versus normalized water
+  content for remolded clayey soils.
+\newblock \emph{34th Proceedings of JSGE}, 1:\penalty0 543--544, 1999.
+
+\bibitem[Tumay and Acar(1985)]{Tumay198572}
+Mehmet~T. Tumay and Yalcin~B. Acar.
+\newblock Piezocone penetration testing in soft cohesive soils.
+\newblock pages 72--82, 1985.
+
+\bibitem[Vaid et~al.(1979)Vaid, Robertson, and Campanella]{Vaid197935}
+Y.P. Vaid, P.K. Robertson, and R.G. Campanella.
+\newblock Strain rate behaviour of saint-jean-vianney clay.
+\newblock \emph{Can Geotech J}, 16\penalty0 (1):\penalty0 35--42, 1979.
+
+\bibitem[Ward et~al.(1959)Ward, Samuels, and Butler]{Ward195933}
+W.H. Ward, S.G. Samuels, and M.E. Butler.
+\newblock Further studies of the properties of london clay.
+\newblock \emph{Geotechnique}, 9\penalty0 (2):\penalty0 33--58, 1959.
+\newblock \doi{10.1680/geot.1959.9.2.33}.
+
+\bibitem[Wei et~al.(2010)Wei, Pant, and Tumay]{Wei20102}
+L.~Wei, R.~Pant, and M.T. Tumay.
+\newblock Evaluation of undrained shear strength of soft new orleans clay using
+  piezocone.
+\newblock \emph{The 2nd International Symposium on Cone Penetration Testing},
+  pages 2--12, 2010.
+
+\bibitem[Windle and Wroth(1977)]{Windle197737}
+D.~Windle and C.P. Wroth.
+\newblock Use of a self-boring pressuremeter to determine the undrained
+  properties of clays.
+\newblock \emph{Ground Engineering}, 10\penalty0 (6):\penalty0 37--"42,
+  45--46", 1977.
+
+\bibitem[Wroth and Houlsby(1985)]{Wroth19851}
+C.P. Wroth and G.T. Houlsby.
+\newblock \emph{Soil mechanics - property characterization and analysis
+  procedures.}
+\newblock 1985.
 
 \bibitem[Wroth and Wood(1978)]{Wroth1978137}
 C.P. Wroth and D.M. Wood.
@@ -1597,5 +1673,48 @@ C.P. Wroth and D.M. Wood.
 \newblock \emph{Canadian Geotechnical Journal}, 15\penalty0 (2):\penalty0
   137--145, 1978.
 \newblock \doi{10.1139/t78-014}.
+
+\bibitem[Wu(1958)]{Wu19581}
+T.H. Wu.
+\newblock Geotechnical properties of glacial lake clays.
+\newblock \emph{Journal of the Soil Mechanics and Foundations Division, ASCE},
+  84\penalty0 (3):\penalty0 1--34, 1958.
+
+\bibitem[Wu et~al.(1962)Wu, Douglas, and Goughnour]{Wu19621}
+T.H. Wu, A.G. Douglas, and R.D. Goughnour.
+\newblock Friction and cohesion of saturated clays.
+\newblock \emph{Journal of the Soil Mechanics and Foundations Division, ASCE},
+  88\penalty0 (3):\penalty0 1--32, 1962.
+
+\bibitem[Wu et~al.(1963)Wu, Loh, and Malvern]{Wu1963145}
+T.H. Wu, A.K. Loh, and L.E. Malvern.
+\newblock Study of failure envelope of soils.
+\newblock \emph{Journal of the Soil Mechanics and Foundation Division},
+  89\penalty0 (SM1):\penalty0 145--181, 1963.
+
+\bibitem[Wu et~al.(1975)Wu, Thayer, and Lin]{Wu1975913}
+Tien~H. Wu, William~B. Thayer, and Sheng~S. Lin.
+\newblock Stability of embankment on clay.
+\newblock \emph{ASCE J Geotech Eng Div}, 101\penalty0 (9):\penalty0 913--932,
+  1975.
+
+\bibitem[Wu et~al.(1978)Wu, Chang, and Ali]{Wu1978889}
+Tien~H. Wu, Nien~Y. Chang, and Elfatih~M. Ali.
+\newblock Consolidation and strength properties of a clay.
+\newblock \emph{ASCE J Geotech Eng Div}, 104\penalty0 (7):\penalty0 889--905,
+  1978.
+
+\bibitem[YASUHARA et~al.(1982)YASUHARA, YAMANOUCHI, and HIRAO]{YASUHARA198277}
+KAZUYA YASUHARA, TOYOTOSHI YAMANOUCHI, and KAZUTOSHI HIRAO.
+\newblock Cyclic strength and deformation of normally consolidated clay.
+\newblock \emph{SOILS FOUND}, V 22\penalty0 (N 3):\penalty0 77--91, 1982.
+\newblock \doi{10.3208/sandf1972.22.3_77}.
+
+\bibitem[Zreik et~al.(1995)Zreik, Ladd, and Germaine]{Zreik1995472}
+Diana~A. Zreik, Charles~C. Ladd, and John~T. Germaine.
+\newblock New fall cone device for measuring the undrained strength of very
+  weak cohesive soils.
+\newblock \emph{Geotechnical Testing Journal}, 18\penalty0 (4):\penalty0
+  472--482, 1995.
 
 \end{thebibliography}
