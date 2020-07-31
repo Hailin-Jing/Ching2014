@@ -17,20 +17,20 @@
 \begin{Parallel}{0.60\textwidth}{}
     \ParallelLText
     {
-        Let us recall from eq. (\ref{equal:1}) that the variability term $\epsilon$ for a  transformation model can be expressed as
+        Let us recall from eq. (\ref{equation:1}) that the variability term $\epsilon$ for a  transformation model can be expressed as
     }
     \ParallelRText
     {
-        让我们从等式(\ref{equal:1})回忆，转换模型的可变性项$\epsilon$可以表示为
+        让我们从等式(\ref{equation:1})回忆，转换模型的可变性项$\epsilon$可以表示为
     }
     \ParallelPar
     \begin{align}
         \epsilon=\dfrac{\rm{actual~target~value}}{b\times{}\rm{predicted~target~value}}=\dfrac{\rm{actual~target~value}}{\rm{unbiased~prediction}}
-        \label{equal:2}
+        \label{equation:2}
     \end{align}
     \ParallelLText
     {
-        where the unbiased prediction = $b\times$ predicted target value. The variability term epsilou quantifies the deviation between the actual value and the unbiased prediction. It has mean value of 1 and COV equal to the calibrated COV (delta). Equivalently
+        where the unbiased prediction = $b\times$ predicted target value. The variability term epsilou quantifies the deviation between the actual value and the unbiased prediction. It has mean value of 1 and COV equation to the calibrated COV (delta). Equivalently
     }
     \ParallelRText
     {
@@ -39,7 +39,7 @@
     \ParallelPar
     \begin{align}
         \ln(\varepsilon)=\ln(\rm{actual~target~value})-\ln({\rm{unbiased~prediction}})
-        \label{equal:3}
+        \label{equation:3}
     \end{align}
     \ParallelLText
     {
@@ -86,7 +86,7 @@
     \ParallelPar
     \begin{align}
         \varepsilon=\left[\alpha(\rm{PI}/20)^\beta\right]\varepsilon'
-        \label{equal:4}
+        \label{equation:4}
     \end{align}
     \ParallelLText
     {
@@ -99,22 +99,24 @@
     \ParallelPar
     \begin{align}
         \ln(\varepsilon)\approx{}\ln(\alpha)+\beta\ln(\rm{PI}/20)
-        \label{equal:5}
+        \label{equation:5}
     \end{align}
     \ParallelLText
     {
-        where $\ln(\varepsilon)$ is the known output and $\ln(\rm{PI}/20)$ is the known input, whereas $\ln(\alpha)$ and $\beta$ are the intersect and gradient, respectively, to be estimated by the least squares method. The natural logarithm is taken for $varepsilon$ and PI because traditional linear regression requires normality. Figure \ref{figure:17} shows the histograms of $\varepsilon$ and $\ln(\varepsilon)$ for the $\rm{OCR}-(s_u/\sigma_v')$ model proposed by \citet{Jamiolkowski198557} - $\ln(\varepsilon)$ is more normal than $\varepsilon$. In fact, $\ln(\rm{PI})$ is also more normal than PI (not shown). Hence, it is more appropriate to do regression on the $\ln(\varepsilon)-\ln(\rm{PI})$ data points. Once the least-squares estimates for $\alpha$ and $\beta$ are obtained, eq. (\ref{equal:1}) can be expressed as
+        where $\ln(\varepsilon)$ is the known output and $\ln(\rm{PI}/20)$ is the known input, whereas $\ln(\alpha)$ and $\beta$ are the intersect and gradient, respectively, to be estimated by the least squares method. The natural logarithm is taken for $varepsilon$ and PI because traditional linear regression requires normality. Figure \ref{figure:17} shows the histograms of $\varepsilon$ and $\ln(\varepsilon)$ for the $\rm{OCR}-(s_u/\sigma_v')$ model proposed by \citet{Jamiolkowski198557} - $\ln(\varepsilon)$ is more normal than $\varepsilon$. In fact, $\ln(\rm{PI})$ is also more normal than PI (not shown). Hence, it is more appropriate to do regression on the $\ln(\varepsilon)-\ln(\rm{PI})$ data points. Once the least-squares estimates for $\alpha$ and $\beta$ are obtained, eq. (\ref{equation:1}) can be expressed as
     }
     \ParallelRText
     {
-        其中$\ln(\varepsilon)$是已知输出，而$\ln(\rm{PI}/20)$是已知输入，而$\ln(\alpha)$和$\beta$是分别通过最小二乘法估计的相交和渐变。 因为传统的线性回归需要正态性，所以PI取自然对数。 图\ref{figure:17}显示了\citet{Jamiolkowski198557}提出的$\rm{OCR}-(s_u/\sigma_v')$模型的$\varepsilon$和$\ln(\varepsilon)$的直方图 - $\ln(\varepsilon)$比$\varepsilon$更为正常。 实际上，$\ln(\rm{PI})$也比PI更正常（未显示）。 因此，对$\ln(\varepsilon)-\ln(\rm{PI})$数据点进行回归更合适。 使用最小二乘估计获得$\alpha$和$\beta$，等式(\ref{equal:1})可以表示为
+        其中$\ln(\varepsilon)$是已知输出，而$\ln(\rm{PI}/20)$是已知输入，而$\ln(\alpha)$和$\beta$是分别通过最小二乘法估计的相交和渐变。 因为传统的线性回归需要正态性，所以PI取自然对数。 图\ref{figure:17}显示了\citet{Jamiolkowski198557}提出的$\rm{OCR}-(s_u/\sigma_v')$模型的$\varepsilon$和$\ln(\varepsilon)$的直方图 - $\ln(\varepsilon)$比$\varepsilon$更为正常。 实际上，$\ln(\rm{PI})$也比PI更正常（未显示）。 因此，对$\ln(\varepsilon)-\ln(\rm{PI})$数据点进行回归更合适。 使用最小二乘估计获得$\alpha$和$\beta$，等式(\ref{equation:1})可以表示为
     }
     \ParallelPar
     \input{figures/figure-17.tex}
     \begin{align}
-        \rm{Actual~value}&=\rm{predicted~value}\times{}b\times{}\left[\alpha\times{}(\rm{PI}/20)^\beta\right]\times{}\varepsilon'\nonumber\\
-        &=\rm{predicted~value}\times{}b'\times{}\varepsilon'
-        \label{equal:6}
+        \begin{split}
+            \rm{Actual~value}&=\rm{predicted~value}\times{}b\times{}\left[\alpha\times{}(\rm{PI}/20)^\beta\right]\times{}\varepsilon'\\
+            &=\rm{predicted~value}\times{}b'\times{}\varepsilon'
+        \end{split}
+        \label{equation:6}
     \end{align}
     \ParallelLText
     {
@@ -127,7 +129,7 @@
     \ParallelPar
     \begin{align}
         b'=b\times{}\left[\alpha\times{}(\rm{PI}/20)^\beta\right]=b\times{}(\rm{bias~correction~factor})
-        \label{equal:7}
+        \label{equation:7}
     \end{align}
     \ParallelLText
     {
@@ -158,7 +160,7 @@
     \ParallelPar
     \begin{align}
         \varepsilon=\left[\alpha\times{}(\rm{PI}/20)^\beta\times{}S_t^\gamma\right]\times{}\varepsilon'
-        \label{equal:8}
+        \label{equation:8}
     \end{align}
     \ParallelLText
     {
@@ -171,7 +173,7 @@
     \ParallelPar
     \begin{align}
         \ln(\varepsilon)\approx{}\ln(\alpha)+\beta\ln(\rm{PI}/20)+\gamma\ln(S_t)
-        \label{equal:9}
+        \label{equation:9}
     \end{align}
     \ParallelLText
     {
@@ -181,9 +183,17 @@
     {
         其中$\ln(\varepsilon)$是已知输出，而$\ln(\rm{PI}/20)$和$\ln(S_t)$是已知输入，而$\ln(\alpha)$，$\beta$和$\gamma$是通过最小二乘法估计的相交和渐变。一旦获得了$\ln(\alpha)$，$\beta$和$\gamma$的最小二乘估计，则$\alpha\times{}(\rm{PI}/20)^\beta\times{}S_y^\gamma$项即为BCF。表\ref{table:6}显示了使用PI和$S_t$进行推导的的$b'=(\rm{original}~b)\times{}[BCF]$格式的更新的偏差因子$b'$和$\delta'=(\rm{original}~\delta)\times{}(\rm{CCF}\%)$格式的更新的$\delta'$。很明显，当目标参数为$s_u/\sigma_v'$或$s_u/\sigma_p'$，BCF始终是$S_t$的增函数（$\gamma>0$），这意味着具有较大$S_t$值的黏土往往具有较大的$s_u/\sigma_v'$和$s_u/\sigma_p'$。当目标参数是CPTU锥因子时，BCF是$S_t$的递减函数（$\gamma<0$）。这意味着具有较大$S_t$值的黏土往往具有较小的圆锥系数，因此具有较大的$S_u$值。通常，更新后的COV（$\delta'$）明显小于表\ref{table:5}中的原始$\delta$值。对于这种降低不确定性有两种可能的解释：
     }
+    \ParallelPar
+    \ParallelLText
+    {
+        1. The uncertainty is indeed effectively reduced with the inclusion of $S_t$ as a secondary explanatory variable.
+
+        2. The number of $\ln(\varepsilon)-\ln(\rm{PI})-\ln(S_t)$ data points is substantially less than the number of $\ln(\varepsilon)-\ln(\rm{PI})$ data points (see the “$n$” column in Table \ref{table:5}). The former $n$ is typically around 100 to 200, except two models where $n$ is around 400, while the latter $n$ is about 2 to 5 times more. These relatively small numbers of the $\ln(\varepsilon)-\ln(S_t)$ data points may not represent a “global” dataset. Hence, the resulting $\delta'$ may look small.
+    }
+    \ParallelRText
+    {
+        1.通过将$S_t$作为次要解释变量，确实可以有效降低不确定性。
+
+        2. $\ln(\varepsilon)-\ln(\rm{PI})-\ln(S_t)$数据点的数量大大少于$\ln(\varepsilon)-\ln(\rm{PI})$数据点的数量（请参见表\ref{table:5}中的“$n$”列）。前者的$n$通常约为100到200，只有两个模型的$n$约为400，而后者的$n$大约是后者的2至5倍。 这些相对较少的$\ln(\varepsilon)-\ln(S_t)$数据点可能无法表示“全局”数据集。 因此，所得的$\delta'$看起来可能很小。
+    }
 \end{Parallel}
-
-$\ln(\alpha)$, $\beta$ and $\gamma$ are obtained, 
-
-$\ln(\alpha)$, $\beta$ and $\gamma$ are obtained,
-

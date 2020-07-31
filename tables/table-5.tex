@@ -1,6 +1,62 @@
-\begin{table}[!htb]
+\newcommand{\RelationshipAA}{$\rm{LI}-s_u^{re}/P_a$}
+\newcommand{\RelationshipAB}{$\rm{LI}-S_t$}
+\newcommand{\RelationshipBA}{$\rm{LI}-\sigma_v'/P_a-S_t$}
+\newcommand{\RelationshipBB}{$\rm{LI}-\sigma_p'/P_a-S_t$}
+\newcommand{\RelationshipCA}{$\rm{LI}-s_u/\sigma_p'$}
+\newcommand{\RelationshipCB}{$\rm{PI}-s_u/\sigma_p'$}
+\newcommand{\RelationshipCC}{$\rm{OCR}-s_u/\sigma_p'$}
+\newcommand{\RelationshipCD}{$\rm{OCR}-s_u/\sigma_p'-S_t$}
+\newcommand{\RelationshipDA}{$\rm{CPTU}-s_u/\sigma_p'$}
+\newcommand{\RelationshipDB}{$\rm{CPTU}-\rm{OCR}$}
+\newcommand{\RelationshipDC}{$\rm{CPTU}-\sigma_p'/P_a$}
+
+\newcommand{\LiteratureAA}{\citet{Wroth1978137}}
+\newcommand{\LiteratureAB}{\citet{Locat1988799}}
+\newcommand{\LiteratureAC}{\citet{Bjerrum195449}}
+\newcommand{\LiteratureAD}{\citet{Ching2012522}}
+\newcommand{\LiteratureBA}{\citet{Mitchell1993}}
+\newcommand{\LiteratureBB}{\citet{NAVFAC1982}}
+\newcommand{\LiteratureBC}{\citet{Stas1984}}
+\newcommand{\LiteratureBD}{\citet{Ching2012522}}
+\newcommand{\LiteratureCA}{\citet{Bjerrum1960711}}
+\newcommand{\LiteratureCB}{\citet{Mesri1975409,Mesri1989162}}
+\newcommand{\LiteratureCC}{\citet{Jamiolkowski198557}}
+\newcommand{\LiteratureCD}{\citet{Ching2012522}}
+\newcommand{\LiteratureDA}{\citet{Ching201252}}
+\newcommand{\LiteratureDB}{\citet{Chen1996488}}
+\newcommand{\LiteratureDC}{\citet{Kulhawy1990}}
+\newcommand{\LiteratureDD}{\citet{Chen1996488}}
+\newcommand{\LiteratureDE}{\citet{Kulhawy1990}}
+
+\newcommand{\ModelAA}{$s_u^{re}/P_a\approx{}1.7\exp(-4.6\rm{LI})$}
+\newcommand{\ModelAB}{$s_u^{re}/P_a\approx{}0.0144\rm{LI}^{-2.44}$}
+\newcommand{\ModelAC}{$S_t\approx10^{0.8\rm{LI}}$}
+\newcommand{\ModelAD}{$S_t\approx{}20.726\rm{LI}^{1.910}$}
+\newcommand{\ModelBA}{-}
+\newcommand{\ModelBB}{-}
+\newcommand{\ModelBC}{$\sigma_p'/P_a\approx{}10^{1.11-1.62\rm{LI}}$(for $S_t < 10$ only)}
+\newcommand{\ModelBD}{$\sigma_p'/P_a\approx{}0.235\rm{LI}^{-1.319}S_t^{0.536}$}
+\newcommand{\ModelCA}{-}
+\newcommand{\ModelCB}{$s_u(\rm{mob})/\sigma_p'\approx{}0.22$}
+\newcommand{\ModelCC}{$s_u(\rm{mob})/\sigma_p'\approx{}0.23(\rm{OCR})^{0.8}$}
+\newcommand{\ModelCD}{$s_u(\rm{mob})/\sigma_p'\approx{}0.229(\rm{OCR})^{0.823}S_t^{0.121}$}
+\newcommand{\ModelDA}{$\left[(q_t-\sigma_v)/\sigma_v'\right]/\left[s_u(\rm{mob})/\sigma_v'\right]\approx{}29.1\exp(-0.513B_q)$}
+\newcommand{\ModelDB}{$\left[(q_t-u_2)/\sigma_v'\right]/\left[s_u(\rm{mob})/\sigma_v'\right]\approx{}34.6\exp(-2.049B_1)$}
+\newcommand{\ModelDC}{$\left[(u_2-u_0)/\sigma_v'\right]/\left[s_u(\rm{mob})/\sigma_v'\right]\approx{}21.5B_q$}
+\newcommand{\ModelDD}{$\rm{OCR}\approx{}0.259\left[(q_t-\sigma_v')\right]^{1.107}$}
+\newcommand{\ModelDE}{$\rm{OCR}\approx{}0.545\left[(q_t-u_2)\right]^{0.969}$}
+\newcommand{\ModelDF}{$\rm{OCR}\approx{}1.026B_q^{-1.077}$}
+\newcommand{\ModelDG}{$\rm{OCR}\approx{}0.32(q_t-\sigma_v)/\sigma_v'$}
+\newcommand{\ModelDH}{$\sigma_p'/P_a\approx{}0.227\left[(q_t-\sigma_v)/P_a\right]^{1.200}$}
+\newcommand{\ModelDI}{$\sigma_p'/P_a\approx{}0.490\left[(q_t-u_2)/P_a\right]^{1.053}$}
+\newcommand{\ModelDJ}{$\sigma_p'/P_a\approx{}1.274+0.761(u_2-u_0)/P_a$}
+\newcommand{\ModelDK}{$\sigma_p'/P_a\approx{}0.33(q_t-\sigma_v)/P_a$}
+\newcommand{\ModelDL}{$\sigma_p'/P_a\approx{}0.54(u_2-u_0)/P_a$}
+
+%\newgeometry{left=1cm,bottom=1cm}        
+\begin{sidewaystable}[!p]
     \centering
-    \scriptsize
+    \small
     \caption{Transformation models for $s_u(\rm{mob})$.}
     \addtocounter{table}{-1}
     \vspace{-8pt}
@@ -8,8 +64,47 @@
     \caption{$s_u(\rm{mob})$的转换模型}
     \vspace{4pt}
     \renewcommand{\tablename}{Table}
-    \begin{tabularx}{\textwidth}{lll}
-        
-    \end{tabularx}%
+    \setlength{\tabcolsep}{0.2mm}{
+    \begin{tabular}{llllllllll}
+        \toprule
+        &       &                   &       &       &       & \multicolumn{2}{l}{Comprasion} & \multicolumn{2}{l}{Calibration} \\
+        Type    & Relationship      & Literature & $n$ & Transformation model & Remarks & Figure & \makecell[l]{Fit to\\trend?} & \makecell{Bias\\factor,b} & \makecell{COV of $\varepsilon=\delta$\\(value in literature)}\\
+        \midrule
+        \specialrule{0em}{1pt}{1pt}
+        A       & \RelationshipAA & \LiteratureAA & 899  & \ModelAA & \makecell[l]{Based on modified \\Cam Clay model}            & Fig.\ref{figure:2}       & No       & $-$         & $-$ \\
+        \specialrule{0em}{1pt}{1pt}
+                &                 & \LiteratureAB & 899  & \ModelAB  &           & Fig.\ref{figure:2}       & YES      & 1.92      & 1.25(n/a) \\
+                & \RelationshipAB & \LiteratureAC & 1279 & \ModelAC & Norwegian marine clays            & Fig.\ref{figure:3}       & YES      & 2.06      & 1.09(n/a) \\
+        \specialrule{0em}{1pt}{1pt}
+                &                 & \LiteratureAD & 1279 & \ModelAD & \makecell[l]{Structured clays with $S_t=$\\$2\sim{}1000$ and OCR = $1\sim{}4$}            & Fig.\ref{figure:3}       & YES      & 0.88      & 1.28(1.19) \\
+        \specialrule{0em}{1pt}{1pt}
+        B       & \RelationshipBA & \LiteratureBA & 694  & \ModelBA & Graphical curves            & Fig.\ref{figure:4}       & NO       & $-$         & $-$ \\
+                & \RelationshipBB & \LiteratureBB & 492  & \ModelBB & Graphical curves            & Fig.\ref{figure:5}       & NO       & $-$         & $-$ \\
+                &                 & \LiteratureBC & 249  & \ModelBC  &           & Fig.\ref{figure:6}       & YES      & 2.94      & 1.90(0.34) \\
+        \specialrule{0em}{1pt}{1pt}
+                &                 & \LiteratureBD & 489  & \ModelBD & \makecell[l]{Structured clays with $S_t=$\\$2\sim{}1000$ and OCR = $1\sim{}4$}            & Fig.\ref{figure:7}       & YES      & 1.32      & 0.78(0.73) \\
+        \specialrule{0em}{1pt}{1pt}
+        C       & \RelationshipCA & \LiteratureCA & 1072 & \ModelCA & \makecell[l]{Graphical curves; \\Norwegian NC clays}           & Fig.\ref{figure:8}       & NO       & $-$         & $-$ \\
+        \specialrule{0em}{1pt}{1pt}
+                & \RelationshipCB & \LiteratureCB & 1155 & \ModelCB &            & Fig.\ref{figure:9}       & YES      & 1.04      & 0.55(n/a) \\
+                & \RelationshipCC & \LiteratureCC & 1402 & \ModelCC &            & Fig.\ref{figure:10}      & YES      & 1.11      & 0.53(n/a) \\
+        \specialrule{0em}{1pt}{1pt}
+                & \RelationshipCD & \LiteratureCD & 395  & \ModelCD & \makecell[l]{Structured clays with $S_t=$\\$2\sim{}1000$ and OCR = $1\sim{}4$}            & Fig.\ref{figure:11}      & YES      & 0.84      & 0.34(0.34) \\
+        \specialrule{0em}{1pt}{1pt}
+        D       & \RelationshipDA & \LiteratureDA & 423  & \ModelDA &            & Fig.\ref{figure:12}      & YES      & 0.96      & 0.49(0.31) \\
+                &                 &               & 428  & \ModelDB &            & Fig.\ref{figure:12}      & YES      & 1.11      & 0.57(0.34) \\
+                &                 &               & 423  & \ModelDC &            & Fig.\ref{figure:12}      & YES      & 0.94      & 0.49(0.32) \\
+                & \RelationshipDB & \LiteratureDB & 690  & \ModelDD &            & Fig.\ref{figure:13}      & YES      & 1.01      & 0.42(n/a) \\
+                &                 &               & 542  & \ModelDE &            & Fig.\ref{figure:13}      & YES      & 1.06      & 0.57(n/a) \\
+                &                 &               & 779  & \ModelDF &            & Fig.\ref{figure:13}      & YES      & 1.28      & 0.86(n/a) \\
+                &                 & \LiteratureDC & 690  & \ModelDG &            & Fig.\ref{figure:13}      & YES      & 1.00      & 0.39($\approx{}0.25$) \\
+                & \RelationshipDC & \LiteratureDD & 690  & \ModelDH &            & Fig.\ref{figure:14}      & YES      & 0.99      & 0.42(n/a) \\
+                &                 &               & 542  & \ModelDI &            & Fig.\ref{figure:14}      & YES      & 1.08      & 0.61(n/a) \\
+                &                 &               & 690  & \ModelDJ &            & Fig.\ref{figure:14}      & NO       & 0.49      & 0.59(n/a) \\
+                &                 & \LiteratureDE & 690  & \ModelDK &            & Fig.\ref{figure:14}      & YES      & 0.97      & 0.39($\approx{}0.2$) \\
+                &                 &               & 690  & \ModelDL &            & Fig.\ref{figure:14}      & YES      & 1.18      & 0.75($\approx{}0.25$) \\
+        \bottomrule
+    \end{tabular}}%
     \label{table:5}%
-\end{table}
+\end{sidewaystable}
+%\restoregeometry

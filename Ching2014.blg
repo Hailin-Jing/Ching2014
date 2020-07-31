@@ -2,52 +2,88 @@ This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Ching2014.aux
 The style file: plainnat.bst
+Reallocated field_info (elt_size=4) to 12028 items from 5000.
 Database file #1: Ching2014.bib
+Warning--empty title in Aas198021
 Warning--empty booktitle in Aas19861
+Warning--empty title in Agarwal1967
+Warning--empty title in Andresen195754
+Warning--empty booktitle in Azzouz1983161
+Warning--empty journal in Balasubramaniam1976390
+Warning--empty publisher in Carter1991
+Warning--empty booktitle in Coutinho20072049
+Warning--empty booktitle in Cox19791147
+Warning--empty title in DeLory19671
+Warning--there's a number but no volume in DiBiagio19769
+Warning--empty title in Feyling-Hanssen1957
+Warning--there's a number but no volume in Feyling-Hanssen1957
+Warning--empty title in Gregersen1979535
+Warning--there's a number but no volume in Henkel1963280
 Warning--empty publisher in Jamiolkowski198557
+Warning--empty title in Kinner1970
+Warning--empty publisher in Lacasse1985887
+Warning--empty booktitle in Lacasse1982661
+Warning--empty booktitle in Ladd198365
+Warning--empty title in Lew1981
+Warning--empty title in Liu1999
+Warning--empty title in Lo19631
+Warning--empty booktitle in Long20072003
+Warning--empty booktitle in Lunne1981305
+Warning--empty publisher in Lunne1985907
+Warning--empty booktitle in Lunne1986714
+Warning--empty booktitle in Mayne19891
+Warning--empty publisher in Mayne1985579
 Warning--empty booktitle in Mesri20071
 Warning--there's a number but no series in Mesri20071
+Warning--empty booktitle in Ohtsubo20071893
+Warning--empty booktitle in O'Riordan1982755
 Warning--empty publisher in Phoon2008344
+Warning--empty title in Phoon2013
+Warning--empty journal in Prevost1977255
+Warning--there's a number but no volume in Raymond19731
+Warning--empty publisher in RochaFilho1985859
+Warning--empty title in Schofield1968
+Warning--empty booktitle in Senneset198541
 Warning--empty journal in Terzaghi1996
-You've used 31 entries,
+You've used 251 entries,
             2773 wiz_defined-function locations,
-            813 strings with 10194 characters,
-and the built_in function-call counts, 13500 in all, are:
-= -- 1216
-> -- 664
-< -- 30
-+ -- 228
-- -- 195
-* -- 1043
-:= -- 2074
-add.period$ -- 109
-call.type$ -- 31
-change.case$ -- 154
-chr.to.int$ -- 29
-cite$ -- 68
-duplicate$ -- 651
-empty$ -- 1170
-format.name$ -- 262
-if$ -- 2882
-int.to.chr$ -- 3
+            2143 strings with 44998 characters,
+and the built_in function-call counts, 113601 in all, are:
+= -- 10370
+> -- 5341
+< -- 239
++ -- 1832
+- -- 1575
+* -- 8857
+:= -- 17122
+add.period$ -- 821
+call.type$ -- 251
+change.case$ -- 1256
+chr.to.int$ -- 245
+cite$ -- 543
+duplicate$ -- 5463
+empty$ -- 9982
+format.name$ -- 2062
+if$ -- 24537
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 35
-newline$ -- 179
-num.names$ -- 124
-pop$ -- 293
+missing$ -- 260
+newline$ -- 1331
+num.names$ -- 1008
+pop$ -- 2288
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 1026
 quote$ -- 0
-skip$ -- 497
+skip$ -- 4235
 stack$ -- 0
-substring$ -- 492
-swap$ -- 62
-text.length$ -- 5
+substring$ -- 5118
+swap$ -- 631
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 321
-warning$ -- 6
-while$ -- 118
+type$ -- 2716
+warning$ -- 41
+while$ -- 1024
 width$ -- 0
-write$ -- 430
-(There were 6 warnings)
+write$ -- 3367
+(There were 41 warnings)
