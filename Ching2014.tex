@@ -1,8 +1,81 @@
+<<<<<<< HEAD
 \documentclass{myarticle}
 
 \title{\textbf{Transformations and correlations among some clay parameters - the global database\\一些黏土参数之间的转换和相关性 - 全球数据库}}
 \date{\today}
 \author{Jianye Ching \and Kok-Kwang Phoon}
+=======
+\documentclass[onecolumn,10pt,UTF8]{ctexart}
+
+\usepackage[
+    hyperfootnotes=true,
+    colorlinks=true,
+    linkcolor=red,
+    anchorcolor=blue,
+    citecolor=blue,
+    urlcolor=red
+]{hyperref}
+\usepackage{parallel}% 提供双栏排版支持
+\usepackage{graphicx}% 图形支持
+\usepackage{geometry}% 用于页面设置
+\usepackage{lscape} %页面横置
+\usepackage{pdflscape} %页面横置
+\usepackage{bm} %公式加粗
+\usepackage[fleqn,leqno]{amsmath} %公式
+\usepackage{amsfonts}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage[font=normalsize]{caption}
+\usepackage[table]{xcolor}
+\usepackage[authoryear,round]{natbib}
+%\usepackage{gbt7714}
+\usepackage[doipre={doi:~}]{uri}
+%\usepackage[none]{hyphenat}%取消英文断词
+
+\renewcommand\tablename{Table}
+\renewcommand\figurename{Figure}
+\renewcommand\refname{Reference 参考文献}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}} 
+\newcommand{\Paragraph}[1]{\vspace{5pt}\noindent\textbf{\large{#1}}\vspace{5pt}}
+
+\geometry{
+  a4paper,%
+  left = 1.5cm,%
+  right = 1.5cm,%
+  top = 2.54cm,%
+  bottom = 2.54cm%
+}%
+
+\tolerance=1000
+\emergencystretch=\maxdimen
+\hyphenpenalty=5000
+\hbadness=10000
+
+\makeatletter
+\renewcommand\normalsize{%
+\@setfontsize\normalsize\@xpt\@xiipt
+\abovedisplayskip 1\p@ \@plus2\p@ \@minus5\p@
+\abovedisplayshortskip \z@ \@plus3\p@
+\belowdisplayshortskip 6\p@ \@plus3\p@ \@minus3\p@
+\belowdisplayskip \abovedisplayskip
+\let\@listi\@listI}
+\makeatother
+
+\title{\textbf{Transformations and correlations among some clay parameters - the global database\\一些黏土参数之间的转换和相关性 - 全球数据库}}
+\date{\today}
+\author{Jianye Ching\thanks{
+    \textbf{J. Ching}. Department of Civil Engineering, National Taiwan University, Taiwan.
+} ~and Kok-Kwang Phoon\thanks{
+    \textbf{K.-K. Phoon}. Department of Civil and Environmental Engineering, National University of Singapore, Singapore.
+}\thanks{
+    \textbf{Corresponding author}: Jianye Ching (e-mail:jyching@gmail.com)
+}}
+>>>>>>> parent of 34d827c... Ching2014
 
 \begin{document}
 
@@ -36,5 +109,6 @@
 
 \bibliographystyle{plainnat} % gbt7714-author-year gbt7714-numerical
 \bibliography{Ching2014.bib}
+
 
 \end{document}

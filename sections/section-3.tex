@@ -1,5 +1,6 @@
 \section{Calibration of existing transformation models 校准现有的转换模型}
 
+<<<<<<< HEAD
 \begin{paracol}{2}
         
     In the database, there are data points where two or more clay parameters are simultaneously known. For instance, a disturbed clay sample is extracted to determine PI, and an undisturbed clay sample is extracted at a nearby borehole at the same depth to determine $s_u$. In this case, PI and $s_u$ are simultaneously known. These data points can be compared with transformation models proposed in literature as a rough check for consistency. Twentyfour transformation models shown in \autoref{table:5} are considered. Most of these models were developed based on certain clay databases, but these databases may not be global in the sense that the data are limited to certain clay types or certain geographic locations. In other words, they are typically site-specific models. It is recommended that the basic statistics of the database supporting the development of transformation models should be explicitly reported in the form of \autoref{table:3} and (or) \autoref{table:4}. The characteristics of the databases underlying numerous existing transformation models are not known and this complicates comparisons with other databases such as the one presented in this study. These characteristics are of interest, because engineers can make a more informed decision on the applicability of a particular transformation model to his or her design scenario at hand.
@@ -26,13 +27,53 @@
         \item \textbf{Type B - Models for effective stress,} including one $\rm{LI}-(\sigma_v'/P_a)-S_t$ model and three $\rm{LI}-(\sigma_p'/P_a)-S_t$ models.
         
         \item \textbf{Type C - Models for shear strength,} including one $\rm{LI}-(s_u/\sigma_p')$ model, one $\rm{PI}-(s_u/\sigma_p')$ model, one $\rm{OCR}-(s_u/\sigma_v')$ model, and one $\rm{OCR}-(s_u/\sigma_v')-S_t$ model. 
+=======
+\begin{Parallel}{0.60\textwidth}{}
+    \ParallelLText
+    {
+        In the database, there are data points where two or more clay parameters are simultaneously known. For instance, a disturbed clay sample is extracted to determine PI, and an undisturbed clay sample is extracted at a nearby borehole at the same depth to determine $s_u$. In this case, PI and $s_u$ are simultaneously known. These data points can be compared with transformation models proposed in literature as a rough check for consistency. Twentyfour transformation models shown in Table \ref{table:5} are considered. Most of these models were developed based on certain clay databases, but these databases may not be global in the sense that the data are limited to certain clay types or certain geographic locations. In other words, they are typically site-specific models. It is recommended that the basic statistics of the database supporting the development of transformation models should be explicitly reported in the form of Table \ref{table:3} and (or) Table \ref{table:4}. The characteristics of the databases underlying numerous existing transformation models are not known and this complicates comparisons with other databases such as the one presented in this study. These characteristics are of interest, because engineers can make a more informed decision on the applicability of a particular transformation model to his or her design scenario at hand.
+    }
+    \ParallelRText
+    {
+        在数据库中，存在同时知道两个或多个黏土参数的数据点。例如，提取扰动的黏土样品以确定PI，并在附近井眼的相同深度提取未扰动的黏土样品以确定$s_u$。在这种情况下，PI和$s_u$同时为已知。这些数据点可以与文献中提出的转换模型进行比较，作为对一致性的粗略检查。考虑了表\ref{table:5}中所示的二十四个转换模型。这些模型中的大多数都是基于某些黏土数据库开发的，但是从数据仅限于某些黏土类型或某些地理位置的意义上讲，这些数据库可能不是全球性的。换句话说，它们通常是特定于站点的模型。建议以表\ref{table:3}和（或）表\ref{table:4}的形式明确报告支持转换模型开发的数据库的基本统计信息。尚不清楚许多现有转换模型所基于的数据库的特征，这会使比较变得复杂与其他数据库，例如本研究中介绍的数据库。这些特性很有趣，因为工程师可以根据特定转换模型对其手头设计方案的适用性做出更明智的决定。
+    }
+    \ParallelPar
+    \input{tables/table-5.tex}
+    \ParallelLText
+    {
+        In the section below, the global database is compared with existing transformation models to assess the quality of the  compiled for this study. The global database is considered to be satisfactory if there is broad agreement with the transformation models published in the literature. Some differences are to be expected. In the absence of detailed information on the databases supporting published transformation models, it is assumed in this study that the differences arose because our global database covers a broader range of clays. As a result, correcting published transformation models will broaden the range of their applicability. The correction is undertaken by calibrating the bias factors and uncertainties for these models against the global database compiled in this study.
+    }
+    \ParallelRText
+    {
+        在下面的部分中，我们将全球数据库与现有的转换模型进行比较，以评估本研究的编译质量。 如果与文献中发布的转换模型达成广泛共识，则认为全球数据库令人满意。 可能会有一些差异。 在缺乏支持已发布的转换模型的数据库的详细信息的情况下，本研究假设出现了差异，因为我们的全球数据库涵盖了更广泛的粘土。 结果，更正已发布的转换模型将扩大其适用范围。 通过根据本研究中编译的全球数据库对这些模型的偏倚因素和不确定性进行校准，可以进行校正。
+    }
+    \ParallelPar
+    \ParallelLText
+    {
+        These 24 transformation models are labeled using the template: (primary input parameter)–(target parameter)–(secondary input parameter). They are categorized into four types (see Table \ref{table:5}):
+
+        \textbf{1. Type A - Models for $S_t$,} including two $\rm{LI}-(s_u^{re}/P_a)$ models and two $\rm{LI}-S_t$ models.
+
+        \textbf{2. Type B - Models for effective stress,} including one $\rm{LI}-(\sigma_v'/P_a)-S_t$ model and three $\rm{LI}-(\sigma_p'/P_a)-S_t$ models.
+
+        \textbf{3. Type C - Models for shear strength,} including one $\rm{LI}-(s_u/\sigma_p')$ model, one $\rm{PI}-(s_u/\sigma_p')$ model, one $\rm{OCR}-(s_u/\sigma_v')$ model, and one $\rm{OCR}-(s_u/\sigma_v')-S_t$ model. 
+>>>>>>> parent of 34d827c... Ching2014
 
         In the $\rm{LI}-(s_u/\sigma_p')$ model proposed by \citet{Bjerrum1960711} for normally consolidated (NC) clays, the $s_u/\sigma_p'$ values are obtained from CIUC tests. For NC clays, $s_u(\rm{CIUC})/\sigma_p'$ is estimated to be 0.37, whereas $s_u(\rm{mob})/\sigma_p'$ is about 0.22 \citep{Mesri1975409}. As a result, the $s_u/\sigma_p'$ value in the original $\rm{LI}-(s_u/\sigma_p')$ model by \citet{Bjerrum1960711} is multiplied by 0.22/0.37=0.59.
 
         \item \textbf{Type D - Models relevant to CPTU}, including three $\rm{CPTU}-(s_u/\sigma_v')$ models, four CPTU–OCR models, \quad and five $\rm{CPTU-(\sigma_P'/P_a)}$ models. 
         
         Note that for the $\rm{CPTU}-(s_u/\sigma_v')$ models by \citet{Ching201252}, the target parameters are actually the cone factors (namely $(q_t-\sigma_v)/s_u$, $(q_t-u_2)/s_u$, and $(u_2-u_0)/s_u$). In these models, the $s_u$ values are obtained from CIUC tests. Therefore, the cone factors in these models are divided by the same factor of 0.59.
+<<<<<<< HEAD
     \end{enumerate}
+=======
+    }
+    \ParallelRText
+    {
+        这24个转换模型使用以下模板标记：（主要输入参数）-（目标参数）-（辅助输入参数）。 它们分为四种类型（请参见表\ ref {table：5}）：
+
+        \textbf{1. 类A - 针对灵敏度$S_t$的模型，}包括2个$\rm{LI}-(s_u^{re}/P_a)$模型和2个$\rm{LI}-S_t$模型
+>>>>>>> parent of 34d827c... Ching2014
 
     \switchcolumn
         
@@ -47,6 +88,7 @@
 
         \item \textbf{类D - 与CPTU相关的模型，}包括3个$\rm{CPTU}-(s_u/\sigma_v')$模型,4个CPTU–OCR模型, 和5个$\rm{CPTU-(\sigma_P'/P_a)}$模型。
         请注意，对于\citet{Ching201252}的$\rm{CPTU}-(s_u/\sigma_v')$模型，目标参数实际上是圆锥因子（即$(q_t-\sigma_v)/s_u$， $(q_t-u_2)/s_u$和 $(u_2-u_0)/s_u$）。在这些模型中，$s_u$值是从CIUC测试获得的。 因此，这些模型中的圆锥系数除以相同的系数0.59。
+<<<<<<< HEAD
     \end{enumerate}
 
     \switchcolumn*
@@ -93,3 +135,51 @@
     \end{enumerate}
 
 \end{paracol}
+=======
+    }
+    \ParallelPar
+    \ParallelLText
+    {
+        Most of these 24 transformation models are derived empirically using regression analyses. The only exception is the $\rm{LI}-(s_u^{re}/P_a)$ model by \citet{Wroth1978137}, which is derived  theoretically from the modified Cam Clay model. Most models are not constructed for a specific type of clay. The exceptions are: (i) the $\rm{LI}-(\sigma_p'/P_a)-S_t$ and $\rm{OCR}-(s_u/\sigma_v')-S_t$ models by \citet{Ching2012522}, constructed primarily from sensitive (structured) clay data (database CLAY/5/535 in Table \ref{table:1}); (ii) the $\rm{LI}-S_t$ model by \citet{Bjerrum195449}, constructed from Norwegian marine clay data only; and (iii) the $\rm{LI}-(s_u/\sigma_p')$ model by \citet{Bjerrum1960711}, constructed from Norwegian NC clay data. Some transformation models are presented as graphical curves only: (i) the $\rm{LI}-(\sigma_v'/P_a)-S_t$ model by \citet{Mitchell1993}, (ii) the $\rm{LI}-(\sigma_p'/P_a)-S_t$ by \citet{NAVFAC1982}, and (iii) the $\rm{LI}-(s_u/\sigma_p')$ model by \citet{Bjerrum1960711}. No equations were reported by the original authors.
+    }
+    \ParallelRText
+    {
+        这24个转换模型中的大多数都是根据经验使用回归分析得出的。 唯一的例外是\citet{Wroth1978137}的$\rm{LI}-(s_u^{re}/P_a)$模型，该模型理论上是从改进的Cam Clay模型推导出来的。 大多数模型不是针对特定类型的粘土构造的。 例外是：（i）\citet{Ching2012522}的$\rm{LI}-(\sigma_p'/P_a)-S_t$和$\rm{OCR}-(s_u/\sigma_v')-S_t$模型，主要是根据敏感的（结构化）黏土数据构造的（表\ref{table:1}中的数据库CLAY/5/535）； （ii）\citet{Bjerrum195449}的$\rm{LI}-S_t$模型，仅根据挪威海洋黏土数据建立；（iii）\citet{Bjerrum1960711}的$\rm{LI}-(s_u/\sigma_p')$模型是根据挪威NC黏土数据构建的。 一些转换模型仅以图形曲线形式显示：（i）\citet{Mitchell1993}的$\rm{LI}-(\sigma_v'/P_a)-S_t$模型，（ii）\citet{NAVFAC1982}的$\rm{LI}-(\sigma_p'/P_a)-S_t$模型，以及（iii）\citet{Bjerrum1960711}的$\rm{LI}-(s_u/\sigma_p')$模型。 原始作者未提出任何方程式。
+    }
+    \ParallelPar
+    \input{figures/figure-2-14.tex}
+    \ParallelLText
+    {
+        The comparison results between the transformation models and the database are shown in Figs. \ref{figure:2}–\ref{figure:14}. For the models with a secondary input parameter St, data points in our database are divided into four groups according to their St values, and four subplots are presented to compare with the transformation models. The four groups are obtained based on St < 4, 4 < St < 10, 10 < St < 20, and St > 20. Figures \ref{figure:2}–\ref{figure:14} show that the global data follow similar trends to most transformation models reported in the literature. The exceptions are the following six models:
+
+        1. The $\rm{LI}-(s_u^{re}/P_a)$ model proposed by \citet{Wroth1978137}. This model was developed based on the modified Cam Clay model. It provides a reasonable average fit to the data for LI < 1 as shown in Fig. \ref{figure:2}. However, it deviates significantly from the data points in our global database for LI > 1.5.
+
+        2. The $\rm{LI}-(\sigma_v'/P_a)-S_t$ model proposed by \citet{Mitchell1993}. Despite the wide scatter as shown in Fig. \ref{table:4}, there is general agreement between this model and the global data for data points with 4 < St < 20. However, for data with small St values (St < 4) or with large St values (St > 20), the agreement is poor. It is possible that this model was developed with most data points falling between 4 < St < 20. In other words, the empirical support for small and large St values may be weak.
+
+        3. The $\rm{LI}-(\sigma_p'/P_a)-S_t$ model proposed by \citet{NAVFAC1982}. The observations here are similar to those for the Mitchell’s model: there is a reasonably good agreement between the model and the global data for data points with 4 < St < 20 (see Fig. \ref{figure:5}). The agreement is poor outside this range of St. One may venture to guess that the empirical support for small and large St values is also weak for this model.
+
+        4. The $\rm{LI}-(\sigma_p'/P_a)-S_t$ model proposed by \citet{Ching2012522}. The agreement between this model and the global data are reasonable for data points with large St values (St > 20) as shown in Fig. \ref{figure:7}. However, this model does not fit data with small St values (St < 4). This is because the database CLAY/5/345 used to develop this $\rm{LI}-(\sigma_p'/P_a)-S_t$ model contains only structured clays.
+
+        5. $\rm{LI}-(s_u/\sigma_p')$ model proposed by \citet{Bjerrum1960711}. In Fig. \ref{figure:8}, only data points with OCR < 1.2 (nearly NC clays) in the global database are plotted. Nonetheless, the discrepancy between the model and the data is clear. Note that this model was developed based on Norwegian NC clays only. It is most likely that this site-specific model fits to the Norwegian data, but not to the global data from diverse geographic origins.
+        
+        6. One of the $\rm{CPTU}-(\sigma_p'/P_a)$ models proposed by \citet{Chen1996488} (the third model that relates $\sigma_p'$ to $(u_2-u_0)/P_a$ in Table \ref{table:5}). The discrepancy between this model and our global data is apparent. However, the first two models developed by \citet{Chen1996488} (the two models that relate $\sigma_p'/P_a$ to $(q_t-\sigma_v)/P_a$ and $(q_t-u_2)/P_a$) provide reasonable fits to our global data. We are unable to explain this anomaly.
+    }
+    \ParallelRText
+    {
+        转换模型与数据库之间的比较结果如图\ref{figure:2}–\ref{figure:14}所示。 对于具有辅助输入参数St的模型，我们数据库中的数据点根据其St值分为四组，并提出了四个子图与转换模型进行比较。 根据St < 4，4 <St <10，10 <St <20和St > 20获得这四个组。图\ref{figure:2}–\ref{figure:14}显示，全球数据遵循与文献中报道的大多数转换模型相似的趋势。 以下六个模型除外：
+
+        1. \citet{Wroth1978137}提出的$\rm{LI}-(s_u^{re}/P_a)$模型。该模型是基于修改后的Cam Clay模型开发的。如图\ref{figure:2}所示，它为LI < 1的数据提供了合理的平均拟合。但是，对于我们的LI > 1.5，它与我们的全局数据库中的数据点有很大的出入。
+
+        2. \citet{Mitchell1993}提出的$\rm{LI}-(\sigma_v'/P_a)-S_t$模型。尽管如图\ref{table:4}所示分散范围很广，但是对于4 <St <20的数据点，该模型与全局数据之间存在普遍共识。但是，对于St值小的（St < 4）或St值大的数据（St > 20），匹配性很差。该模型可能是在大多数数据点落在4 < St < 20之间的情况下开发的。换句话说，对小和大的St值的经验支持可能很弱。
+
+        3. \citet{NAVFAC1982}提出的$\rm{LI}-(\sigma_p'/P_a)-S_t$模型。这里的观察结果与Mitchell模型的观察结果相似：对于4 < St <20的数据点，模型与全局数据之间存在相当好的一致性（见图\ref{figure:5}）。在St的这一范围之外，该匹配的效果很差。有人可能会猜测，对于该模型，对于小和大的St值的经验支持也很弱。
+
+        4. \citet{Ching2012522}提出的$\rm{LI}-(\sigma_p'/P_a)-S_t$模型。如图\ref{figure:7}所示，此模型与全局数据之间的一致性对于具有较大St值（St > 20）的数据点是合理的。但是，此模型不适用于具有较小St值（St < 4）的数据。这是因为用于开发此$\rm{LI}-(\sigma_p'/P_a)-S_t$模型的数据库CLAY/5/345仅包含结构化粘土。
+        
+        5. \citet{Bjerrum1960711}提出的$\rm{LI}-(s_u/\sigma_p')$模型。在图\ref{figure:8}中，仅绘制了全局数据库中OCR < 1.2（接近NC黏土）的数据点。尽管如此，模型和数据之间的差异仍然很明显。请注意，此模型仅基于挪威NC黏土开发。此特定于站点的模型很可能适合挪威的数据，但不适合来自不同地理来源的全球数据。
+        
+        6. \citet{Chen1996488}提出的$\rm{CPTU}-(\sigma_p'/P_a)$模型之一（表\ref{table:5}中$\sigma_p'$与$(u_2-u_0)/P_a$相关的第三种模型）。该模型与我们的全局数据之间的差异显而易见。然而，由\citet{Chen1996488}开发的前两个模型（$\sigma_p'/P_a$与$(q_t-\sigma_v)/P_a$相关的模型和$(q_t-u_2)/P_a$模型）合理地拟合了我们的全球数据。我们无法解释这种异常。
+    }
+    \ParallelPar
+\end{Parallel}
+>>>>>>> parent of 34d827c... Ching2014
