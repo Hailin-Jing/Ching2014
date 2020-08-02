@@ -1,5 +1,24 @@
 \section{Implementation 实现}
 
+<<<<<<< HEAD
+\begin{paracol}{2}
+    
+    \autoref{table:5} and \autoref{table:6} are useful for obtaining first-order estimates of the mean and COV of a clay parameter of interest (e.g., $s_u$ or $\sigma_p'$) based on the test index at hand. These mean and COV estimates are essential for RBD. First of all, it is imperative to determine whether a transformation model is consistent with the CLAY/10/7490 database by checking the column “Comparison to the global database” and subcolumn “Fit to the trend?”. It is recommended to only adopt models that fit to the CLAY/10/7490 database. Using the well-known model developed by \citet{Jamiolkowski198557} as an example, suppose OCR = 2 is known, and the goal is to determine the mean and COV of $s_u(\rm{mob})/\sigma_v'$. According to \autoref{table:5}, this model fits well to the CLAY/10/7490 database and this fit is shown in \autoref{figure:10}. The second step is to extract the bias factor $b = 1.11$ and COV = 0.53 from the column “Calibration results”. Then, the mean of $s_u(\rm{mob})/\sigma_v'$ is computed as $b\times{}0.23\times{}\rm{OCR}^{0.8}=1.11\times{}0.23\times{}2^{0.8}=0.44$ and the data scatter around the mean is quantified by COV = 0.53.
+        
+    \switchcolumn
+    
+    \cntableref{table:5}和\cntableref{table:6}用于基于手边的测试指数获得感兴趣的黏土参数（例如，$s_u$或$\sigma_p'$）的平均值和COV的一阶估计。这些均值和COV估计值对于RBD至关重要。首先，必须通过检查“与全局数据库比较”列和“适应趋势？”列来确定转换模型是否与CLAY/10/7490数据库一致。建议仅采用适合CLAY/10/7490数据库的模型。使用\citet{Jamiolkowski198557}开发的著名模型作为一个例子，假设OCR = 2是已知的，目标是确定$s_u(\rm{mob})/\sigma_v'$的平均值和COV。根据\cntableref{table:5}，此模型非常适合CLAY/10/7490数据库，并且该适合关系如\cnfigureref{figure:10}所示。第二步是从“校准结果”列中提取偏差因子$b = 1.11$和COV = 0.53。然后，将$s_u(\rm{mob})/\sigma_v'$的平均值计算为$b\times{}0.23\times{}\rm{OCR}^{0.8}=1.11\times{}0.23\times{}2^{0.8}=0.44$，并用COV = 0.53量化围绕平均值的数据散布。
+        
+    \switchcolumn*
+    
+    In the case where PI = 15 and $S_t$ = 10 information is also available, one can extract the bias correction factor (BCF) and COV correction factor (CCF) from the column “Inference results” and subcolumn “Inference based on PI and $S_t$” in \autoref{table:6}. Thus, BCF = $0.71\times{}(PI/20)^{0.133}\times{}S_t^{0.123} = 0.71\times{}(15/20)^{0.133}\times{}10^{0.123} = 0.907$ and CCF = 67$\%$. As a result, the mean for $s_u(\rm{mob})/\sigma_v'$ becomes $0.44\times{}0.907 = 0.403$ and the COV becomes $0.53\times{}67\%= 0.36$. Updating the mean and COV of $s_u(\rm{mob})/\sigma_v'$ based on other measured pieces of information (for example, PI, $S_t$, $(q_t-\sigma_v)/\sigma_v'$, and $B_q$ may have been simultaneously measured in close proximity at the same depth in a site investigation report) is possible once the multivariate probability distribution among these clay parameters is established. This is addressed in a companion paper \citep{Ching2014686}.
+        
+    \switchcolumn
+    
+    如果还提供PI = 15和$S_t$ = 10的信息，则可以从“推断结果”列和子列“基于PI和$S_t$的推断”中提取偏差校正因子（BCF）和COV校正因子（CCF）。 因此，\cntableref{table:6}中的BCF=$0.71\times{}(PI/20)^{0.133}\times{}S_t^{0.123} = 0.71\times{}(15/20)^{0.133}\times{}10^{0.123} = 0.907$，CCF = 67$\%$。 结果，$s_u(\rm{mob})/\sigma_v'$的平均值为$0.44\times{}0.907 = 0.403$，COV为$0.53\times{}67\%= 0.36$。 根据其他测得的信息（例如，PI，$S_t$，$(q_t-\sigma_v)/\sigma_v'$和$B_q$可能同时在附近测量）更新$s_u(\rm{mob})/\sigma_v'$的平均值和COV。 一旦在这些黏土参数之间建立了多元概率分布，就可能实现相同的深度。 伴随文件对此进行了阐述\citep{Ching2014686}。
+        
+\end{paracol}
+=======
 \begin{Parallel}{0.60\textwidth}{}
     \ParallelLText
     {
@@ -19,3 +38,4 @@
         如果还提供PI = 15和$S_t$ = 10的信息，则可以从“推断结果”列和子列“基于PI和$S_t$的推断”中提取偏差校正因子（BCF）和COV校正因子（CCF）。 因此，表\ref{table:6}中的BCF=$0.71\times{}(PI/20)^{0.133}\times{}S_t^{0.123} = 0.71\times{}(15/20)^{0.133}\times{}10^{0.123} = 0.907$，CCF = 67$\%$。 结果，$s_u(\rm{mob})/\sigma_v'$的平均值为$0.44\times{}0.907 = 0.403$，COV为$0.53\times{}67\%= 0.36$。 根据其他测得的信息（例如，PI，$S_t$，$(q_t-\sigma_v)/\sigma_v'$和$B_q$可能同时在附近测量）更新$s_u(\rm{mob})/\sigma_v'$的平均值和COV。 一旦在这些黏土参数之间建立了多元概率分布，就可能实现相同的深度。 伴随文件对此进行了阐述\citep{Ching2014686}。
     }
 \end{Parallel}
+>>>>>>> parent of 34d827c... Ching2014

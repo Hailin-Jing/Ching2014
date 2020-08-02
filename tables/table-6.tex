@@ -43,50 +43,50 @@
 \newcommand{\UModelS}{$\sigma_p'/P_a\approx{}0.33\left[(q_t-\sigma_v)/P_a\right]b'\varepsilon'$}
 \newcommand{\UModelT}{$\sigma_p'/P_a\approx{}0.54\left[(u_2-u_0)/P_a\right]b'\varepsilon'$}
 
-    \begin{sidewaystable}[!p]
-        \centering
-        \scriptsize
-        \renewcommand\arraystretch{1.7}
-        \caption{Analysis results for $\ln(\varepsilon)-\ln(\rm{PI})$ and $\ln(\varepsilon)-\ln(S_t)$ correlations and inference results.}
-        \addtocounter{table}{-1}
-        \vspace{-8pt}
-        \renewcommand{\tablename}{表}
-        \caption{$\ln(\varepsilon)-\ln(\rm{PI})$和$\ln(\varepsilon)-\ln(S_t)$相关性和推断分析结果。}
-        \vspace{4pt}
-        \renewcommand{\tablename}{Table}
-        \setlength{\tabcolsep}{0.4mm}{
-        \begin{tabular}{lllllllllll}
-            \toprule
-                            &               & \multicolumn{4}{l}{\footnotesize Correlation coefficient}      &       & \multicolumn{4}{l}{\footnotesize Inference results} \\
-                            &               & \multicolumn{2}{l}{\footnotesize $\varepsilon-$PI} & \multicolumn{2}{l}{\footnotesize $\varepsilon-S_t$}  &       & \multicolumn{2}{l}{\footnotesize Inference based PI only} & \multicolumn{2}{l}{\footnotesize Inference based on PI and $S_t$} \\
-                            \footnotesize{Relationship}   & \footnotesize{Literature}    &  \footnotesize{$n$} &  \footnotesize{$\rho$} &  \footnotesize{$n$} & \footnotesize{$\rho$} &  \footnotesize{Updated model} &  \footnotesize{$b'=b\times{}[\rm{BCF}]$} &  \footnotesize\makecell{$\delta'=$\\$\delta\times{}[\rm{CCF}\%]$} &  \footnotesize{$b'=b\times{}[\rm{BCF}]$} & \footnotesize\makecell{$\delta'=$\\$\delta\times{}[\rm{CCF}\%]$} \\
-            \midrule
-            \RelationshipA  & \LiteratureA & 887  & -0.24 & $-$   & $-$     & \UModelA & $1.92\times{}\left[1.11(\rm{PI}/20)^{-0.258}\right]$ & $1.25\times{}( 94\%)$ & $-$ & $-$ \\
-            \RelationshipB  & \LiteratureB & 1137 & 0.18  & $-$   & $-$     & \UModelB & $2.05\times{}\left[0.92(\rm{PI}/20)^{ 0.251}\right]$ & $1.09\times{}(104\%)$ & $-$ & $-$ \\
-                            & \LiteratureC & 1137 & -0.02 & $-$   & $-$     & \UModelC & $0.88\times{}\left[0.88(\rm{PI}/20)^{-0.025}\right]$ & $1.28\times{}( 99\%)$ & $-$ & $-$ \\
-            \RelationshipC  & \LiteratureD & 257  & -0.37 & $-$   & $-$     & \UModelD & $2.94\times{}\left[2.94(\rm{PI}/20)^{-0.478}\right]$ & $1.90\times{}( 85\%)$ & $-$ & $-$ \\
-                            & \LiteratureE & 487  & -0.35 & $-$   & $-$     & \UModelE & $1.32\times{}\left[1.32(\rm{PI}/20)^{-0.444}\right]$ & $0.78\times{}( 78\%)$ & $-$ & $-$ \\
-            \RelationshipD  & \LiteratureF & $-$    & $-$     & 433 & 0.43  & \UModelF & $-$                                                  & $-$                   & $1.04\times{}\left[0.76S_t^{0.136}\right]$ & $0.55\times{}(63\%)$ \\
-            \RelationshipE  & \LiteratureG & 1091 & -0.06 & 395 & 0.34  & \UModelG & $1.11\times{}\left[1.11(\rm{PI}/20)^{-0.050}\right]$ & $0.53\times{}( 53\%)$ & $1.11\times{}\left[0.71(\rm{PI}/20)^{ 0.133}S_t^{ 0.123}\right]$ & $0.53\times{}(67\%)$ \\
-            \RelationshipF  & \LiteratureH & 391  & 0.21  & $-$   & $-$     & \UModelH & $0.84\times{}\left[0.84(\rm{PI}/20)^{ 0.131}\right]$ & $0.34\times{}( 34\%)$ & $-$ & $-$ \\
-            \specialrule{0em}{2pt}{2pt}
-            \RelationshipG  & \LiteratureI & 387  & 0.38  & 81  & -0.24 & \UModelI & $0.95\times{}\left[0.95(\rm{PI}/20)^{ 0.348}\right]$ & $0.49\times{}( 49\%)$ & $0.95\times{}\left[1.17(\rm{PI}/20)^{ 0.133}S_t^{-0.198}\right]$ & $0.49\times{}(66\%)$ \\
-            \specialrule{0em}{2pt}{2pt}
-                            &              & 392  & 0.29  & 78  & -0.39 & \UModelJ & $1.11\times{}\left[1.11(\rm{PI}/20)^{ 0.275}\right]$ & $0.57\times{}( 57\%)$ & $1.11\times{}\left[1.40(\rm{PI}/20)^{ 0.241}S_t^{-0.263}\right]$ & $0.57\times{}(72\%)$ \\
-            \specialrule{0em}{2pt}{2pt}
-                            &              & 387  & 0.38  & 81  & -0.25 & \UModelK & $0.94\times{}\left[0.94(\rm{PI}/20)^{ 0.335}\right]$ & $0.49\times{}( 49\%)$ & $0.94\times{}\left[1.22(\rm{PI}/20)^{ 0.189}S_t^{-0.216}\right]$ & $0.49\times{}(78\%)$ \\
-            \specialrule{0em}{2pt}{2pt}
-            \RelationshipH  & \LiteratureJ & 497  & -0.09 & 163 & 0.12  & \UModelL & $1.01\times{}\left[1.01(\rm{PI}/20)^{-0.073}\right]$ & $0.42\times{}( 42\%)$ & $1.01\times{}\left[1.09(\rm{PI}/20)^{ 0.275}S_t^{ 0.002}\right]$ & $0.42\times{}(73\%)$ \\
-                            &              & 466  & -0.11 & 123 & 0.27  & \UModelM & $1.06\times{}\left[1.06(\rm{PI}/20)^{-0.105}\right]$ & $0.57\times{}( 57\%)$ & $1.06\times{}\left[0.79(\rm{PI}/20)^{-0.206}S_t^{ 0.102}\right]$ & $0.57\times{}(69\%)$ \\
-                            &              & 545  & -0.17 & 173 & 0.12  & \UModelN & $1.28\times{}\left[1.28(\rm{PI}/20)^{-0.196}\right]$ & $0.86\times{}( 86\%)$ & $1.28\times{}\left[0.63(\rm{PI}/20)^{-0.079}S_t^{-0.057}\right]$ & $0.86\times{}(52\%)$ \\
-                            & \LiteratureK & 497  & -0.11 & 163 & 0.14  & \UModelO & $1.00\times{}\left[1.00(\rm{PI}/20)^{-0.084}\right]$ & $0.39\times{}( 39\%)$ & $1.00\times{}\left[1.04(\rm{PI}/20)^{-0.188}S_t^{ 0.010}\right]$ & $0.39\times{}(71\%)$ \\
-            \RelationshipI  & \LiteratureL & 497  & -0.04 & 163 & 0.15  & \UModelP & $0.99\times{}\left[0.99(\rm{PI}/20)^{-0.028}\right]$ & $0.42\times{}( 42\%)$ & $0.99\times{}\left[1.07(\rm{PI}/20)^{-0.124}S_t^{ 0.002}\right]$ & $0.42\times{}(70\%)$ \\
-                            &              & 466  & -0.09 & 123 & 0.28  & \UModelQ & $1.08\times{}\left[1.08(\rm{PI}/20)^{-0.087}\right]$ & $0.61\times{}( 61\%)$ & $1.08\times{}\left[0.78(\rm{PI}/20)^{-0.268}S_t^{ 0.205}\right]$ & $0.61\times{}(68\%)$ \\
-                            &              & 498  & -0.25 & 163 & 0.04  & \UModelR & $0.49\times{}\left[0.49(\rm{PI}/20)^{-0.235}\right]$ & $0.59\times{}( 59\%)$ & $1.49\times{}\left[0.94(\rm{PI}/20)^{-0.262}S_t^{ 0.026}\right]$ & $0.59\times{}(60\%)$ \\
-                            & \LiteratureM & 497  & -0.11 & 163 & 0.14  & \UModelS & $0.97\times{}\left[0.97(\rm{PI}/20)^{-0.084}\right]$ & $0.39\times{}( 39\%)$ & $0.97\times{}\left[1.04(\rm{PI}/20)^{-0.188}S_t^{ 0.010}\right]$ & $0.39\times{}(71\%)$ \\
-                            &              & 497  & -0.12 & 162 & -0.01 & \UModelT & $1.18\times{}\left[1.18(\rm{PI}/20)^{-0.114}\right]$ & $0.75\times{}( 75\%)$ & $1.18\times{}\left[1.04(\rm{PI}/20)^{-0.114}S_t^{-0.069}\right]$ & $0.75\times{}(61\%)$ \\
-            \bottomrule
-        \end{tabular}}%
-        \label{table:6}%
-        \renewcommand\arraystretch{1.0}
-    \end{sidewaystable}
+\begin{sidewaystable*}[!p]
+    \centering
+    \scriptsize
+    \renewcommand\arraystretch{1.7}
+    \caption{Analysis results for $\ln(\varepsilon)-\ln(\rm{PI})$ and $\ln(\varepsilon)-\ln(S_t)$ correlations and inference results.}
+    \addtocounter{table}{-1}
+    \vspace{-8pt}
+    \renewcommand{\tablename}{表}
+    \caption{$\ln(\varepsilon)-\ln(\rm{PI})$和$\ln(\varepsilon)-\ln(S_t)$相关性和推断分析结果。}
+    \vspace{4pt}
+    \renewcommand{\tablename}{Table}
+    \setlength{\tabcolsep}{0.4mm}{
+    \begin{tabular}{lllllllllll}
+        \toprule
+                         &               & \multicolumn{4}{l}{\footnotesize Correlation coefficient}      &       & \multicolumn{4}{l}{\footnotesize Inference results} \\
+                        &               & \multicolumn{2}{l}{\footnotesize $\varepsilon-$PI} & \multicolumn{2}{l}{\footnotesize $\varepsilon-S_t$}  &       & \multicolumn{2}{l}{\footnotesize Inference based PI only} & \multicolumn{2}{l}{\footnotesize Inference based on PI and $S_t$} \\
+                        \footnotesize{Relationship}   & \footnotesize{Literature}    &  \footnotesize{$n$} &  \footnotesize{$\rho$} &  \footnotesize{$n$} & \footnotesize{$\rho$} &  \footnotesize{Updated model} &  \footnotesize{$b'=b\times{}[\rm{BCF}]$} &  \footnotesize\makecell{$\delta'=$\\$\delta\times{}[\rm{CCF}\%]$} &  \footnotesize{$b'=b\times{}[\rm{BCF}]$} & \footnotesize\makecell{$\delta'=$\\$\delta\times{}[\rm{CCF}\%]$} \\
+        \midrule
+        \RelationshipA  & \LiteratureA & 887  & -0.24 & $-$   & $-$     & \UModelA & $1.92\times{}\left[1.11(\rm{PI}/20)^{-0.258}\right]$ & $1.25\times{}( 94\%)$ & $-$ & $-$ \\
+        \RelationshipB  & \LiteratureB & 1137 & 0.18  & $-$   & $-$     & \UModelB & $2.05\times{}\left[0.92(\rm{PI}/20)^{ 0.251}\right]$ & $1.09\times{}(104\%)$ & $-$ & $-$ \\
+                        & \LiteratureC & 1137 & -0.02 & $-$   & $-$     & \UModelC & $0.88\times{}\left[0.88(\rm{PI}/20)^{-0.025}\right]$ & $1.28\times{}( 99\%)$ & $-$ & $-$ \\
+        \RelationshipC  & \LiteratureD & 257  & -0.37 & $-$   & $-$     & \UModelD & $2.94\times{}\left[2.94(\rm{PI}/20)^{-0.478}\right]$ & $1.90\times{}( 85\%)$ & $-$ & $-$ \\
+                        & \LiteratureE & 487  & -0.35 & $-$   & $-$     & \UModelE & $1.32\times{}\left[1.32(\rm{PI}/20)^{-0.444}\right]$ & $0.78\times{}( 78\%)$ & $-$ & $-$ \\
+        \RelationshipD  & \LiteratureF & $-$    & $-$     & 433 & 0.43  & \UModelF & $-$                                                  & $-$                   & $1.04\times{}\left[0.76S_t^{0.136}\right]$ & $0.55\times{}(63\%)$ \\
+        \RelationshipE  & \LiteratureG & 1091 & -0.06 & 395 & 0.34  & \UModelG & $1.11\times{}\left[1.11(\rm{PI}/20)^{-0.050}\right]$ & $0.53\times{}( 53\%)$ & $1.11\times{}\left[0.71(\rm{PI}/20)^{ 0.133}S_t^{ 0.123}\right]$ & $0.53\times{}(67\%)$ \\
+        \RelationshipF  & \LiteratureH & 391  & 0.21  & $-$   & $-$     & \UModelH & $0.84\times{}\left[0.84(\rm{PI}/20)^{ 0.131}\right]$ & $0.34\times{}( 34\%)$ & $-$ & $-$ \\
+        \specialrule{0em}{2pt}{2pt}
+        \RelationshipG  & \LiteratureI & 387  & 0.38  & 81  & -0.24 & \UModelI & $0.95\times{}\left[0.95(\rm{PI}/20)^{ 0.348}\right]$ & $0.49\times{}( 49\%)$ & $0.95\times{}\left[1.17(\rm{PI}/20)^{ 0.133}S_t^{-0.198}\right]$ & $0.49\times{}(66\%)$ \\
+        \specialrule{0em}{2pt}{2pt}
+                        &              & 392  & 0.29  & 78  & -0.39 & \UModelJ & $1.11\times{}\left[1.11(\rm{PI}/20)^{ 0.275}\right]$ & $0.57\times{}( 57\%)$ & $1.11\times{}\left[1.40(\rm{PI}/20)^{ 0.241}S_t^{-0.263}\right]$ & $0.57\times{}(72\%)$ \\
+        \specialrule{0em}{2pt}{2pt}
+                        &              & 387  & 0.38  & 81  & -0.25 & \UModelK & $0.94\times{}\left[0.94(\rm{PI}/20)^{ 0.335}\right]$ & $0.49\times{}( 49\%)$ & $0.94\times{}\left[1.22(\rm{PI}/20)^{ 0.189}S_t^{-0.216}\right]$ & $0.49\times{}(78\%)$ \\
+        \specialrule{0em}{2pt}{2pt}
+        \RelationshipH  & \LiteratureJ & 497  & -0.09 & 163 & 0.12  & \UModelL & $1.01\times{}\left[1.01(\rm{PI}/20)^{-0.073}\right]$ & $0.42\times{}( 42\%)$ & $1.01\times{}\left[1.09(\rm{PI}/20)^{ 0.275}S_t^{ 0.002}\right]$ & $0.42\times{}(73\%)$ \\
+                        &              & 466  & -0.11 & 123 & 0.27  & \UModelM & $1.06\times{}\left[1.06(\rm{PI}/20)^{-0.105}\right]$ & $0.57\times{}( 57\%)$ & $1.06\times{}\left[0.79(\rm{PI}/20)^{-0.206}S_t^{ 0.102}\right]$ & $0.57\times{}(69\%)$ \\
+                        &              & 545  & -0.17 & 173 & 0.12  & \UModelN & $1.28\times{}\left[1.28(\rm{PI}/20)^{-0.196}\right]$ & $0.86\times{}( 86\%)$ & $1.28\times{}\left[0.63(\rm{PI}/20)^{-0.079}S_t^{-0.057}\right]$ & $0.86\times{}(52\%)$ \\
+                        & \LiteratureK & 497  & -0.11 & 163 & 0.14  & \UModelO & $1.00\times{}\left[1.00(\rm{PI}/20)^{-0.084}\right]$ & $0.39\times{}( 39\%)$ & $1.00\times{}\left[1.04(\rm{PI}/20)^{-0.188}S_t^{ 0.010}\right]$ & $0.39\times{}(71\%)$ \\
+        \RelationshipI  & \LiteratureL & 497  & -0.04 & 163 & 0.15  & \UModelP & $0.99\times{}\left[0.99(\rm{PI}/20)^{-0.028}\right]$ & $0.42\times{}( 42\%)$ & $0.99\times{}\left[1.07(\rm{PI}/20)^{-0.124}S_t^{ 0.002}\right]$ & $0.42\times{}(70\%)$ \\
+                        &              & 466  & -0.09 & 123 & 0.28  & \UModelQ & $1.08\times{}\left[1.08(\rm{PI}/20)^{-0.087}\right]$ & $0.61\times{}( 61\%)$ & $1.08\times{}\left[0.78(\rm{PI}/20)^{-0.268}S_t^{ 0.205}\right]$ & $0.61\times{}(68\%)$ \\
+                        &              & 498  & -0.25 & 163 & 0.04  & \UModelR & $0.49\times{}\left[0.49(\rm{PI}/20)^{-0.235}\right]$ & $0.59\times{}( 59\%)$ & $1.49\times{}\left[0.94(\rm{PI}/20)^{-0.262}S_t^{ 0.026}\right]$ & $0.59\times{}(60\%)$ \\
+                        & \LiteratureM & 497  & -0.11 & 163 & 0.14  & \UModelS & $0.97\times{}\left[0.97(\rm{PI}/20)^{-0.084}\right]$ & $0.39\times{}( 39\%)$ & $0.97\times{}\left[1.04(\rm{PI}/20)^{-0.188}S_t^{ 0.010}\right]$ & $0.39\times{}(71\%)$ \\
+                         &              & 497  & -0.12 & 162 & -0.01 & \UModelT & $1.18\times{}\left[1.18(\rm{PI}/20)^{-0.114}\right]$ & $0.75\times{}( 75\%)$ & $1.18\times{}\left[1.04(\rm{PI}/20)^{-0.114}S_t^{-0.069}\right]$ & $0.75\times{}(61\%)$ \\
+        \bottomrule
+    \end{tabular}}%
+    \label{table:6}%
+    \renewcommand\arraystretch{1.0}
+\end{sidewaystable*}
