@@ -1,0 +1,93 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Ching2014.aux
+The style file: plainnat.bst
+Reallocated field_info (elt_size=4) to 12560 items from 5000.
+Database file #1: Ching2014.bib
+Warning--empty title in Aas198021
+Warning--empty booktitle in Aas19861
+Warning--empty title in Agarwal1967
+Warning--empty title in Andresen195754
+Warning--empty booktitle in Azzouz1983161
+Warning--empty journal in Balasubramaniam1976390
+Warning--empty publisher in Carter1991
+Warning--empty booktitle in Coutinho20072049
+Warning--empty booktitle in Cox19791147
+Warning--empty title in DeLory19671
+Warning--there's a number but no volume in DiBiagio19769
+Warning--empty title in Feyling-Hanssen1957
+Warning--there's a number but no volume in Feyling-Hanssen1957
+Warning--empty title in Gregersen1979535
+Warning--there's a number but no volume in Henkel1963280
+Warning--empty publisher in Jamiolkowski198557
+Warning--empty title in Kinner1970
+Warning--empty publisher in Lacasse1985887
+Warning--empty booktitle in Lacasse1982661
+Warning--empty booktitle in Ladd198365
+Warning--empty title in Lew1981
+Warning--empty title in Liu1999
+Warning--empty title in Lo19631
+Warning--empty booktitle in Long20072003
+Warning--empty booktitle in Lunne1981305
+Warning--empty publisher in Lunne1985907
+Warning--empty booktitle in Lunne1986714
+Warning--empty booktitle in Mayne19891
+Warning--empty publisher in Mayne1985579
+Warning--empty booktitle in Mesri20071
+Warning--there's a number but no series in Mesri20071
+Warning--empty booktitle in Ohtsubo20071893
+Warning--empty booktitle in O'Riordan1982755
+Warning--empty publisher in Phoon2008344
+Warning--empty title in Phoon2013
+Warning--empty journal in Prevost1977255
+Warning--there's a number but no volume in Raymond19731
+Warning--empty publisher in RochaFilho1985859
+Warning--empty title in Schofield1968
+Warning--empty booktitle in Senneset198541
+Warning--empty journal in Tavenas1977319
+Warning--empty journal in Terzaghi1996
+Warning--empty title in Tschuschke2005121
+Warning--empty booktitle in Tumay198572
+Warning--empty publisher in Wroth19851
+You've used 270 entries,
+            2773 wiz_defined-function locations,
+            2254 strings with 47893 characters,
+and the built_in function-call counts, 122754 in all, are:
+= -- 11173
+> -- 5862
+< -- 249
++ -- 2007
+- -- 1731
+* -- 9648
+:= -- 18515
+add.period$ -- 880
+call.type$ -- 270
+change.case$ -- 1363
+chr.to.int$ -- 264
+cite$ -- 585
+duplicate$ -- 5874
+empty$ -- 10746
+format.name$ -- 2247
+if$ -- 26484
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 280
+newline$ -- 1428
+num.names$ -- 1084
+pop$ -- 2486
+preamble$ -- 1
+purify$ -- 1116
+quote$ -- 0
+skip$ -- 4546
+stack$ -- 0
+substring$ -- 5506
+swap$ -- 666
+text.length$ -- 54
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2920
+warning$ -- 45
+while$ -- 1102
+width$ -- 0
+write$ -- 3614
+(There were 45 warnings)

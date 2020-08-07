@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduntion 简介}{2}{section.1}%
+\contentsline {section}{\numberline {2}Database CLAY/10/7490 数据库CLAY/10/7490}{6}{section.2}%
+\contentsline {section}{\numberline {3}Calibration of existing transformation models 校准现有的转换模型}{9}{section.3}%
+\contentsline {section}{\numberline {4}Biases and uncertainties of the existing transformation models 现有转换模型的偏差和不确定性}{16}{section.4}%
+\contentsline {section}{\numberline {5}Secondary input parameters 辅助输入参数}{18}{section.5}%
+\contentsline {section}{\numberline {6}Implementation 实现}{24}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions 结论}{25}{section.7}%
+\contentsline {section}{\numberline {A}Summary of database CLAY/10/7490 数据库CLAY/10/7490概览}{25}{appendix.A}%

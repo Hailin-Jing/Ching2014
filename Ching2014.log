@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  3 AUG 2020 00:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  8 AUG 2020 02:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -616,7 +616,11 @@ Package: paracol 2018/12/31 v1.35
 \pcol@tempboxb=\box75
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks29
-)) (./Ching2014.aux)
+)) (./Ching2014.aux
+
+LaTeX Warning: Label `RF1' multiply defined.
+
+)
 \openout1 = `Ching2014.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -764,7 +768,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 21.
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 18.
  [2] [3] (./tables/table-1.tex
 Overfull \vbox (1.613pt too high) detected at line 25
  []
@@ -792,22 +796,21 @@ Overfull \vbox (1.613pt too high) detected at line 25
 ) [4]) (./sections/section-2.tex (./figures/figure-1.tex
 File: figures/figure-1.png Graphic file (type bmp)
 <figures/figure-1.png>
-)
-Overfull \hbox (6.44283pt too wide) in paragraph at lines 20--21
-\TU/lmr/m/n/10 tive stress ($\OML/cmm/m/it/10 ^^[[]\OT1/cmr/m/n/10 /\OML/cmm/m/it/10 P[]$\TU/lmr/m/n/10 , where $\OML/cmm/m/it/10 P[]$ \TU/lmr/m/n/10 is one atmosphere pressure (=101.3$[]$)),
- []
-
-[5] [6] (./tables/table-2.tex
+) [5] (./tables/table-2.tex
 Overfull \hbox (1.67989pt too wide) in alignment at lines 26--26
 [][][] 
  []
 
-) [7] (./tables/table-3-4.tex)) (./sections/section-3.tex (./tables/table-5.tex
+)
+
+LaTeX Warning: Text page 7 contains only floats.
+
+[6] [7] (./tables/table-3-4.tex)) (./sections/section-3.tex [8] (./tables/table-5.tex
 Overfull \hbox (19.64743pt too wide) in paragraph at lines 68--109
  [][][] 
  []
 
-) [8] [9] [10] (./figures/figure-2-14.tex
+) [9] [10] (./figures/figure-2-14.tex
 File: figures/figure-2.png Graphic file (type bmp)
 <figures/figure-2.png>
 File: figures/figure-3.png Graphic file (type bmp)
@@ -834,91 +837,34 @@ File: figures/figure-13.png Graphic file (type bmp)
 <figures/figure-13.png>
 File: figures/figure-14.png Graphic file (type bmp)
 <figures/figure-14.png>
-)
-Underfull \hbox (badness 6364) in paragraph at lines 84--85
-[]\TU/SimSun(0)/m/n/10 转 换 模 型 与 数 据 库 之 间 的 比 较 结 果 如
- []
-
-
-Overfull \hbox (2.80083pt too wide) in paragraph at lines 90--91
-[]\TU/lmr/m/n/10 3. [][]NAVFAC[][] ([][]1982[][]) \TU/SimSun(0)/m/n/10 提 出 的 $[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^[[]\OT1/cmr/m/n/10 /[][]) \OMS/cmsy/m/n/10 ^^@
- []
-
-[11] [12] [13] [14]) (./sections/section-4.tex (./figures/figure-15.tex
+) [11] [12] [13] [14]) (./sections/section-4.tex [15] (./figures/figure-15.tex
 File: figures/figure-15.png Graphic file (type bmp)
 <figures/figure-15.png>
 )
-Overfull \hbox (40.31161pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 4 BIASES AND UNCERTAINTIES OF THE EXISTING TRANSFORMATION MODELS \TU/SimSun(0)/m/it/10 现 有 转 换 模 型 的 偏 差 和 不 确 定 性 \TU/lmr/m/n/10 15
- []
-
-[15]
-Overfull \hbox (7.5367pt too wide) in paragraph at lines 34--35
-\TU/lmr/m/n/10 Mayne[][] ([][]1996[][]) \TU/SimSun(0)/m/n/10 以 及[][]\TU/lmr/m/n/10 Ching and Phoon[][] ([][]2012a[][],[][]b[][])\TU/SimSun(0)/m/n/10 ，|
- []
-
-
 Overfull \hbox (40.31161pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 4 BIASES AND UNCERTAINTIES OF THE EXISTING TRANSFORMATION MODELS \TU/SimSun(0)/m/it/10 现 有 转 换 模 型 的 偏 差 和 不 确 定 性 \TU/lmr/m/n/10 16
  []
 
 [16]
-Overfull \hbox (2.92563pt too wide) in paragraph at lines 70--71
-[]\TU/lmr/m/n/10 2. \TU/SimSun(0)/m/n/10 将 $\OML/cmm/m/it/10 s[]$ \TU/SimSun(0)/m/n/10 数 据 点 转 换 为 参 考 强 度 $\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ([])$\TU/SimSun(0)/m/n/10 ，|
+Overfull \hbox (40.31161pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 4 BIASES AND UNCERTAINTIES OF THE EXISTING TRANSFORMATION MODELS \TU/SimSun(0)/m/it/10 现 有 转 换 模 型 的 偏 差 和 不 确 定 性 \TU/lmr/m/n/10 17
  []
 
-) (./sections/section-5.tex [17]
-Overfull \vbox (18.41998pt too high) detected at line 26
- []
-
-
-Overfull \vbox (19.16217pt too high) detected at line 26
- []
-
-
-Overfull \vbox (17.86443pt too high) detected at line 39
- []
-
-
-Overfull \vbox (19.16217pt too high) detected at line 39
- []
-
-
-Overfull \vbox (18.41998pt too high) detected at line 52
- []
-
-
-Overfull \vbox (19.16217pt too high) detected at line 52
- []
-
-(./figures/figure-16.tex
+[17]) (./sections/section-5.tex [18] (./figures/figure-16.tex
 File: figures/figure-16.png Graphic file (type bmp)
 <figures/figure-16.png>
-)
-Overfull \vbox (18.41998pt too high) detected at line 62
- []
-
-
-Overfull \vbox (19.16217pt too high) detected at line 62
- []
-
-
-Overfull \vbox (18.41998pt too high) detected at line 71
- []
-
-
-Overfull \vbox (19.16217pt too high) detected at line 71
- []
-
-[18] (./tables/table-6.tex
+) (./tables/table-6.tex
 Overfull \hbox (19.6964pt too wide) in paragraph at lines 58--92
  [][][] 
  []
 
-) [19] [20] (./figures/figure-17.tex
+
+Overfull \vbox (181.67654pt too high) has occurred while \output is active []
+
+ [19] [20]) (./figures/figure-17.tex
 File: figures/figure-17.png Graphic file (type bmp)
 <figures/figure-17.png>
-) [21] [22]) (./sections/section-6.tex) (./sections/section-7.tex [23]) (./tables/table-a1.tex [24] [25] [26] [27] [28]) (./Ching2014.bbl [29]
+) [21] [22]) (./sections/section-6.tex [23]) (./sections/section-7.tex) (./tables/table-a1.tex [24] [25] [26] [27] [28] [29]) (./Ching2014.bbl [30]
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -942,26 +888,30 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [30] [31] [32] [33] [34] [35] [36] [37] [38]
+ [31] [32] [33] [34] [35] [36] [37] [38] [39]
 Missing character: There is no σ in font [lmroman10-regular]:mapping=tex-text;!
- [39] [40] [41] [42] [43])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+ [40] [41] [42] [43])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
  [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./Ching2014.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `Ching2014.out' has not changed.
 (rerunfilecheck)             Checksum: 63ADD0FC230A1C3E9927251C75ECA087;2039.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 20626 strings out of 479418
- 425594 string characters out of 5888105
- 767045 words of memory out of 5000000
- 37722 multiletter control sequences out of 15000+600000
+ 20765 strings out of 479418
+ 428239 string characters out of 5888105
+ 773547 words of memory out of 5000000
+ 37861 multiletter control sequences out of 15000+600000
  547439 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,21n,72p,2889b,1000s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,72p,2885b,982s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Ching2014.pdf (44 pages).

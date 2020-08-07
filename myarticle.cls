@@ -30,8 +30,11 @@
 ]{hyperref}
 \RequirePackage[doipre={doi:~}]{uri}
 
-\usepackage{paracol}
-\columnratio{0.61}
+\RequirePackage{paracol}
+\setcolumnwidth{0.60\textwidth}
+\footnotelayout{m}
+\globalcounter{figure}
+\globalcounter{table}
 
 \renewcommand\tablename{Table}
 \renewcommand\figurename{Figure}
