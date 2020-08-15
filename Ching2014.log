@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  8 AUG 2020 02:16
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  15 AUG 2020 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,12 +859,12 @@ Overfull \hbox (19.6964pt too wide) in paragraph at lines 58--92
  []
 
 
-Overfull \vbox (181.67654pt too high) has occurred while \output is active []
+Overfull \vbox (165.67654pt too high) has occurred while \output is active []
 
  [19] [20]) (./figures/figure-17.tex
 File: figures/figure-17.png Graphic file (type bmp)
 <figures/figure-17.png>
-) [21] [22]) (./sections/section-6.tex [23]) (./sections/section-7.tex) (./tables/table-a1.tex [24] [25] [26] [27] [28] [29]) (./Ching2014.bbl [30]
+) [21] [22]) (./sections/section-6.tex [23]) (./sections/section-7.tex) (./tables/table-a1.tex [24] [25] [26] [27] [28] [29]) (./Ching2014.bbl
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -888,7 +888,7 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [31] [32] [33] [34] [35] [36] [37] [38] [39]
+ [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
 Missing character: There is no σ in font [lmroman10-regular]:mapping=tex-text;!
  [40] [41] [42] [43])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
@@ -908,10 +908,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
 Here is how much of TeX's memory you used:
  20765 strings out of 479418
  428239 string characters out of 5888105
- 773547 words of memory out of 5000000
+ 773561 words of memory out of 5000000
  37861 multiletter control sequences out of 15000+600000
  547439 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,21n,72p,2885b,982s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,72p,2885b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Ching2014.pdf (44 pages).
