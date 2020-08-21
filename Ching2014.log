@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  15 AUG 2020 14:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.6.17)  19 AUG 2020 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,11 @@ entering extended mode
 **Ching2014
 (./Ching2014.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (c:/texlive/2020/mylib/tex/latex/myarticle.cls
+L3 programming layer <2020-03-06> (c:/texlive/2020/mylib/tex/latex/BilingualDocument.cls
+
+LaTeX Warning: You have requested document class `BilingualDocument',
+               but the document class provides `myarticle'.
+
 Document Class: myarticle 
 (c:/texlive/2020/texmf-dist/tex/latex/ctex/ctexart.cls (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-03-06 L3 programming layer (loader) 
@@ -582,7 +586,9 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 \pgffor@skip=\dimen303
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
-)) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (c:/texlive/2020/texmf-dist/tex/generic/beebe/texnames.sty
+This is texnames.sty, Version 1.10 <02 March 1998>
+) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
  (c:/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
@@ -1168,12 +1174,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 26799 strings out of 479418
- 553732 string characters out of 5888105
- 866651 words of memory out of 5000000
- 43782 multiletter control sequences out of 15000+600000
- 547439 words of font info for 117 fonts, out of 8000000 for 9000
+ 26828 strings out of 479418
+ 554338 string characters out of 5888105
+ 866541 words of memory out of 5000000
+ 43806 multiletter control sequences out of 15000+600000
+ 547525 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,21n,72p,2885b,1000s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,72p,2885b,1002s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Ching2014.pdf (67 pages).
